@@ -108,7 +108,7 @@
     color: #fff;
 }
 #prev{
-    left: 25px;
+    left: 20px;
     top: 180px;
     border-radius: 0 10px 10px 0;
     background-color: #33332f52;
@@ -117,7 +117,6 @@
     right:0;
     top: 180px;
     border-radius: 10px 0 0 10px;
-    background-color: #FFFFFF;
     background-color: #33332f52;
 }
 #prev svg,#next svg{
@@ -143,9 +142,10 @@
     text-align: center;
     cursor: pointer;
     font-family: FiraGo;
+    padding-top: 8px;
 }
 .button-purchase span:hover{
-    background-color: rgba(161, 70, 70, 0.527);
+    background-color: rgba(59, 179, 89, 0.733);
 }
 .purchase {
     position: relative;
@@ -194,7 +194,6 @@
     height: 91px;
     margin: 0 25px 0 0;
     border-radius: 10px;
-    box-shadow: 10px 10px #F1F7E9;
 }
 .promotion2 {
     display: flex;
@@ -205,7 +204,6 @@
     height: 91px;
     margin: 0 25px 0 0;
     border-radius: 10px;
-    box-shadow: 10px 10px #FEEFE8;
 }
 .promotion3 {
     display: flex;
@@ -216,7 +214,6 @@
     height: 91px;
     margin: 0 25px 0 0;
     border-radius: 10px;
-    box-shadow: 10px 10px #EBF7FC;
 }
 .promotion4 {
     display: flex;
@@ -227,20 +224,33 @@
     height: 91px;
     margin: 0 25px 0 0;
     border-radius: 10px;
-    box-shadow: 10px 10px #FAF4FA;
 }
-.promo-icon {
+.promo-icon1 {
+    padding: 10px;
+}
+.promo-icon2 {
+    padding: 10px;
+}
+.promo-icon3 {
+    padding: 10px;
+}
+.promo-icon4 {
     padding: 10px;
 }
 .promotion1:hover{
-    color: rgba(255, 153, 0, 0.877);
+    color: #b8e280;
+    box-shadow: 10px 10px #F1F7E9;
+
 }
 .promotion2:hover{
-    color: rgba(255, 153, 0, 0.877);
+    color: #f0b9a0;
+    box-shadow: 10px 10px #FEEFE8;
 }
 .promotion3:hover{
-    color: rgba(255, 153, 0, 0.877);
+    color: #90cfeb;
+    box-shadow: 10px 10px #EBF7FC;
 }
 .promotion4:hover{
-    color: rgba(255, 153, 0, 0.877);
+    color: #e997e9;
+    box-shadow: 10px 10px #FAF4FA;
 }
