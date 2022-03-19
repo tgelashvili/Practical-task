@@ -3,12 +3,10 @@
     padding: 0;
     box-sizing: border-box;
 }
-
 .container {
     max-width: 1024px;
     width: 100%;
 }
-
 /* general full block */
 .block {
     display: flex;
@@ -20,12 +18,10 @@
     margin-bottom: 70px;
     background-color: #FFFFFF;
 }
-
 .line-menu {
     display: inline-block;
     cursor: pointer;
 }
-  
 .bar1, .bar2, .bar3 {
     width: 35px;
     height: 5px;
@@ -33,12 +29,10 @@
     margin: 6px 0;
     transition: 0.4s;
 }
-
 .change .bar1 {
     -webkit-transform: rotate(-45deg) translate(-9px, 6px);
     transform: rotate(-45deg) translate(-9px, 6px);
 }
-
 .change .bar2 {opacity: 0;}
 
 .change .bar3 {
@@ -46,9 +40,7 @@
     transform: rotate(45deg) translate(-8px, -8px);
 }
 
-
 /* search left pannel */
-
 .icon-bar a {
     display: inline-block;
     width: 50px;
@@ -60,20 +52,19 @@
     font-size: 12px;
     text-decoration: none;
 }
-
 .icon-bar a:hover {
     background-color: #7ac57367;
     border-radius: 25px;
 }
 
 /* slider - swiper */
-
 .slider{
     max-width:1186px;
     height:260px;
     margin:0 auto;
     position: relative;
     overflow: hidden;
+    border-radius: 10px;
 }
 .slide-area{
     height: 100%;
@@ -109,7 +100,6 @@
     margin-top: -80px !important;
     left: 35%;
 }
-
 .slide-area{
     font-size: 24px;
     text-align: center;
@@ -135,13 +125,12 @@
     fill: #fff;
 }
 #next svg {
-  transform: rotate(-180deg);
+    transform: rotate(-180deg);
 }
 #prev:hover,
 #next:hover{
     background-color: rgba(0, 0, 0, 0.8);
 }
-
 .button-purchase span{
     position: absolute;
     margin: 35px 0 0 -50px;
@@ -155,11 +144,9 @@
     cursor: pointer;
     font-family: FiraGo;
 }
-
 .button-purchase span:hover{
     background-color: rgba(161, 70, 70, 0.527);
 }
-
 .purchase {
     position: relative;
     background-color: #CAC7C7FF;
@@ -169,7 +156,6 @@
     display: block;
     bottom: 25px;
 }
-
 .dots {
     position: absolute;
     display: flex;
@@ -193,3 +179,68 @@
     background-color: rgb(247, 213, 213);
 }
 
+/* promotion section */
+.block-3 {
+    display: flex;
+    margin-top: 70px;
+    font-family: Myraid;
+}
+.promotion1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #F1F7E9;
+    width: 278px;
+    height: 91px;
+    margin: 0 25px 0 0;
+    border-radius: 10px;
+    box-shadow: 10px 10px #F1F7E9;
+}
+.promotion2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #FEEFE8;
+    width: 278px;
+    height: 91px;
+    margin: 0 25px 0 0;
+    border-radius: 10px;
+    box-shadow: 10px 10px #FEEFE8;
+}
+.promotion3 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #EBF7FC;
+    width: 278px;
+    height: 91px;
+    margin: 0 25px 0 0;
+    border-radius: 10px;
+    box-shadow: 10px 10px #EBF7FC;
+}
+.promotion4 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #FAF4FA;
+    width: 278px;
+    height: 91px;
+    margin: 0 25px 0 0;
+    border-radius: 10px;
+    box-shadow: 10px 10px #FAF4FA;
+}
+.promo-icon {
+    padding: 10px;
+}
+.promotion1:hover{
+    color: rgba(255, 153, 0, 0.877);
+}
+.promotion2:hover{
+    color: rgba(255, 153, 0, 0.877);
+}
+.promotion3:hover{
+    color: rgba(255, 153, 0, 0.877);
+}
+.promotion4:hover{
+    color: rgba(255, 153, 0, 0.877);
+}

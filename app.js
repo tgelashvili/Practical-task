@@ -76,7 +76,7 @@ function stopAutoSliding (){
 // თუ მაუსი მიტანილი მაქვს სურათზე და შემდეგ გამოვწევ 
 // სურათიდან, ავტომატური სლაიდი გაგრძელდეს.
 mouseMove.addEventListener('mouseenter', stopAutoSliding);
-mouseMove.addEventListener('mouseleave', startAutoSliding);
+// mouseMove.addEventListener('mouseleave', startAutoSliding);
 
 // 3. დავამატოთ ასეთი (ღილაკები.png) ღილაკები იმდენი 
 // რამდენი სურათიც გვაქვს, ღილაკები დავნომროთ 
