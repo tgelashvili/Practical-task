@@ -86,7 +86,7 @@
     max-width: 345px;
     position: absolute;
     top:50%;
-    margin:-75px 0 0 -20px;
+    /* margin:-75px 0 0 -20px; */
     color:#fff;
     line-height: 30px;
     text-align: center;
@@ -108,14 +108,14 @@
     color: #fff;
 }
 #prev{
-    left: 20px;
-    top: 180px;
+    left: 35px;
+    top: 40%;
     border-radius: 0 10px 10px 0;
     background-color: #33332f52;
 }
 #next{
-    right:0;
-    top: 180px;
+    right: 35px;
+    top: 40%;
     border-radius: 10px 0 0 10px;
     background-color: #33332f52;
 }
@@ -132,8 +132,9 @@
 }
 .button-purchase span{
     position: absolute;
-    margin: 35px 0 0 -50px;
-    left: 46%;
+    /* margin: 35px 0 0 -50px; */
+    left: 43%;
+    top: 65%;
     z-index: 99;
     height: 42px;
     width: 176px;
@@ -151,7 +152,8 @@
     position: relative;
     background-color: #CAC7C7FF;
     color: rgba(0, 0, 0, 0.8) !important;
-    margin: -89px 0 0 ;
+    /* margin: -89px 0 0 ; */
+    left: 50%;
     cursor: pointer;
     display: block;
     bottom: 25px;
@@ -159,11 +161,12 @@
 .dots {
     position: absolute;
     display: flex;
-    right: 10%;
     margin-left: auto;
     margin-right: auto;
-    left: 46%;
+    left: 48%;
     z-index: 99;
+    text-align: center;
+    justify-content: center;
 }
 .dots span {
     position: relative;
@@ -172,7 +175,6 @@
     background-color: #CAC7C7FF;
     margin: 0 5px;
     cursor: pointer;
-    display: block;
     bottom: 25px;
 }
 .dots span.active {
@@ -240,7 +242,6 @@
 .promotion1:hover{
     color: #b8e280;
     box-shadow: 10px 10px #F1F7E9;
-
 }
 .promotion2:hover{
     color: #f0b9a0;
@@ -253,4 +254,45 @@
 .promotion4:hover{
     color: #e997e9;
     box-shadow: 10px 10px #FAF4FA;
+}
+
+/* promotion part 2 */
+ .grid-container {
+    display: grid;
+    width: 100%;
+    /* height: 200px; */
+    margin-top: 70px;
+    grid-column-gap: 25px;
+    grid-template: "item1 item2 item3" 
+                   "item1  item4 item4" 
+  }
+  
+  .item1 {
+    background-color: lime;
+    grid-area: item1;
+  }
+  
+  .item2 {
+    background-color: lightblue;
+    grid-area: item2;
+  }
+  
+  .item3 {
+    background-color: yellow;
+    grid-area: item3;
+  }
+  
+  .item4 {
+    background-color: red;
+    grid-area: item4;
+  }
+
+  .frontbird {
+      top: 45.5%;
+      left: 64%;
+    }
+
+.frontcat {
+    top: 71.5%;
+
 }
