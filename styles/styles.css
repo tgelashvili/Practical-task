@@ -4,10 +4,10 @@
     box-sizing: border-box;
 }
 .container {
-    max-width: 1024px;
+    max-width: 1187px;
     width: 100%;
 }
-/* general full block */
+/* navigation block */
 .block {
     display: flex;
     justify-content: space-between;
@@ -86,7 +86,6 @@
     max-width: 345px;
     position: absolute;
     top:50%;
-    /* margin:-75px 0 0 -20px; */
     color:#fff;
     line-height: 30px;
     text-align: center;
@@ -128,7 +127,7 @@
 }
 #prev:hover,
 #next:hover{
-    background-color: rgba(0, 0, 0, 0.8);
+    background-color: rgba(219, 213, 213, 0.8);
 }
 .button-purchase span{
     position: absolute;
@@ -152,7 +151,6 @@
     position: relative;
     background-color: #CAC7C7FF;
     color: rgba(0, 0, 0, 0.8) !important;
-    /* margin: -89px 0 0 ; */
     left: 50%;
     cursor: pointer;
     display: block;
@@ -163,7 +161,7 @@
     display: flex;
     margin-left: auto;
     margin-right: auto;
-    left: 48%;
+    left: 46.5%;
     z-index: 99;
     text-align: center;
     justify-content: center;
@@ -185,7 +183,8 @@
 .block-3 {
     display: flex;
     margin-top: 70px;
-    font-family: Myraid;
+    font-family: 'Myraid';
+    cursor: pointer;
 }
 .promotion1 {
     display: flex;
@@ -257,42 +256,370 @@
 }
 
 /* promotion part 2 */
- .grid-container {
-    display: grid;
+.block-4 {
+    max-width: 1200px;
     width: 100%;
-    /* height: 200px; */
+}
+.grid-container {
+    display: grid;
+
     margin-top: 70px;
     grid-column-gap: 25px;
     grid-template: "item1 item2 item3" 
                    "item1  item4 item4" 
-  }
-  
-  .item1 {
-    background-color: lime;
+}
+.item1 {
+    position: relative;
     grid-area: item1;
-  }
-  
-  .item2 {
-    background-color: lightblue;
+    max-width: 378px;
+}
+.item1info {
+    display: flex;
+    flex-wrap: wrap;
+    top: 50%;
+}
+.info1 {
+    position: absolute;
+    top: 70px;
+    left: 40px;
+    font-family: 'Myraid';
+    font-size: 14px;
+    color: white;
+}
+.info2 {
+    position: absolute;
+    top: 109px;
+    left: 40px;
+    font-family: 'Myraid';
+    font-size: 24px;
+    color: white;
+}
+.info3 {
+    position: absolute;
+    top: 138px;
+    left: 40px;
+    font-family: 'Myraid';
+    font-size: 18px;
+    color: white;
+}
+.infobutton4 {
+    position: absolute;
+    top: 192px;
+    left: 40px;
+    background-color: #FFFFFF;
+    color: #111111;
+    font-family: 'Myraid';
+    width: 161px;
+    height: 42px;
+    border-radius: 6px;
+    cursor: pointer;
+    border-style: none;
+}
+.item2 {
+    position: relative;
     grid-area: item2;
-  }
-  
-  .item3 {
-    background-color: yellow;
+}
+.item2 img {
+    border-radius: 10px;
+}
+.info5 {
+    position: absolute;
+    top: 48px;
+    left: 60px;
+    font-family: 'Myraid';
+    font-size: 24px;
+    color: white;
+}
+.info6 {    
+    position: absolute;
+    top: 80px;
+    left: 60px;
+    font-family: 'Myraid';
+    font-size: 18px;
+    color: white;
+}
+.info7 {
+    position: absolute;
+    top: 138px;
+    left: 155px;
+    background-color: #FFFFFF;
+    color: #111111;
+    font-family: 'Myraid';
+    width: 161px;
+    height: 42px;
+    border-radius: 6px;
+    cursor: pointer;
+    border-style: none;
+}
+.item3 {
+    position: relative;
+    background-color: #75b528;;
+    background-image: url(/images/bird.png);
+    background-position: 98% 85%;
+    background-repeat: no-repeat;
     grid-area: item3;
-  }
-  
-  .item4 {
-    background-color: red;
+    width: 367px;
+    height: 189px;
+    border-radius: 6px;
+}
+.info8 {
+    position: absolute;
+    top: 78px;
+    left: 60px;
+    font-family: 'Myraid';
+    font-size: 24px;
+    color: white;
+}
+.info9 {
+    position: absolute;
+    top: 43px;
+    left: 60px;
+    font-family: 'Myraid';
+    font-size: 18px;
+    color: white;
+}
+.info10{
+    position: absolute;
+    top: 138px;
+    left: 60px;
+    background-color: #FFFFFF;
+    color: #111111;
+    font-family: 'Myraid';
+    width: 161px;
+    height: 42px;
+    border-radius: 6px;
+    cursor: pointer;
+    border-style: none;
+}
+.item4 {
+    position: relative;
+    background-color: #f5af00;
+    background-image: url(/images/Rectangle\ 81.png);
+    background-repeat: no-repeat;
     grid-area: item4;
-  }
+    width: 782px;
+    height: 200px;
+    border-radius: 6px;
+}
+.info11 {
+    position: absolute;
+    top: 40px;
+    left: 303px;
+    font-family: 'Myraid';
+    font-size: 18px;
+    color: white;
+}
+.info12 {
+    position: absolute;
+    top: 65px;
+    left: 303px;
+    font-family: 'Myraid';
+    font-size: 24px;
+    color: white;
+}
+.info13 {
+    position: absolute;
+    top: 118px;
+    left: 303px;
+    background-color: #FFFFFF;
+    color: #111111;
+    font-family: 'Myraid';
+    width: 161px;
+    height: 45px;
+    border-radius: 6px;
+    cursor: pointer;
+    border-style: none;
+}
 
-  .frontbird {
-      top: 45.5%;
-      left: 64%;
-    }
-
-.frontcat {
-    top: 71.5%;
-
+/* block 5 product list  */
+.block-5 {
+    max-width: 1280px;
+    width: 100%;
+    margin-top: 70px;
+}
+.block-5 h2 {
+    font-family: 'Myriad';
+    font-size: 28px;
+    color: #111111;
+}
+.block-5 h6 {
+    font-family: 'FiraGo';
+    font-size: 14px;
+    color: #9C9C9C;
+}
+.slide-head {
+    display: block;
+    max-width: 1200px;
+    width: 100%;
+    cursor: pointer;
+}
+hr {
+    border: none;
+}
+.slidelist{
+    margin: 70px 0 30px 0;
+	height: 441px;
+}
+.cs-hidden li {
+    list-style-type: none;
+    display: inline-block;
+}
+a {
+	text-decoration:none;
+}
+.box{
+	width:275px;
+	box-shadow: 2px 2px 30px rgba(0,0,0,0.2);
+	border-radius: 10px;
+	overflow: hidden;
+	margin: 6px;
+}
+.box i {
+    color: orange;
+    top: 20px;
+    right: 16px;
+}
+.slide-img{
+	height: 206px;
+	position:relative;
+}
+.slide-img img{
+	box-sizing: border-box;
+    position: relative;
+    top: 10%;
+    left: 20%;
+}
+.detail-box{
+	width: 100%;
+    display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 10px 20px;
+	box-sizing: border-box;
+	font-family: 'Myriad';
+}
+.type{
+	display: flex;
+    flex-wrap: wrap;
+	flex-direction: column;
+    font-family: 'Myraid';
+    font-size: 18px;
+}
+.type a{
+	color:#222222;
+	margin: 5px 0px;
+	font-weight: 700;
+	letter-spacing: 0.5px;
+	padding-right: 8px;
+}
+.type span{
+	color:rgba(26,26,26,0.5);
+    font-family: 'FiraGo';
+    font-size: 12px;
+    color: #6E6E6E;
+}
+.type button{
+    display: flex;
+    color: #111111;
+    font-family: 'FiraGO';
+    background-color: #F8F8F8;
+    border: none;
+    width: 103px;
+    height: 35px;
+    justify-content: center;
+    align-items: center;
+}
+.type button:hover{
+    background-color: #E7E7E7;
+    color: #111111;
+    font-weight: bold;
+}
+.purchase-button{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-around;
+    height: 99px;
+}
+.price{
+	color: #333333;
+	font-weight: 600;
+	font-size: 1.1rem;
+	font-family: 'FiraGo';
+	letter-spacing: 0.5px;
+}
+.price button{
+    background-color: #F5621F;
+    color: #FFFFFF;
+    font-family: 'FiraGo';
+    font-size: 12px;
+    border-radius: 4px;
+}
+.price-cart i {
+    color: white;
+    background-color: #74B42C;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 34px;
+    height: 34px
+}
+.price-cart {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    box-sizing: border-box;
+    font-family: 'Myriad';
+}
+.overlay{
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	transform: translate(-50%,-50%);
+	width:100%;
+	height: 100%;
+	background-color: rgba(92,95,236,0.6);
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.buy-btn{
+	width:160px;
+	height: 40px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background-color: #FFFFFF;
+	color:#252525;
+	font-weight: 700;
+	letter-spacing: 1px;
+	font-family: calibri;
+	border-radius: 20px;
+	box-shadow: 2px 2px 30px rgba(0,0,0,0.2);
+}
+.buy-btn:hover{
+	color:#FFFFFF;
+	background-color: #f15fa3;
+	transition: all ease 0.3s;
+}
+.overlay{
+	visibility: hidden;
+}
+.slide-img:hover .overlay{
+	visibility: visible;
+	animation:fade 0.5s;
+}
+@keyframes fade{
+	0%{
+		opacity: 0;
+	}
+	100%{
+		opacity: 1;
+	}
+}
+.selection {
+    margin: 7px;
+    border-radius: 4px;
 }

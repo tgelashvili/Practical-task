@@ -1,9 +1,9 @@
 @font-face {
-    font-family: FiraGO;
+    font-family: 'FiraGO';
     src: url(/fonts/FiraGO.TTF);
 }
 
 @font-face {
-    font-family: Myriad;
+    font-family: 'Myriad';
     src: url(/fonts/Myriad.TTF);
 }
