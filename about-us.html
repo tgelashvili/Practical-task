@@ -3,13 +3,14 @@
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Contact us - Zootopia</title>
     <link rel="stylesheet" href="fonts/fonts.css">
-    <link rel="stylesheet" href="styles/contact.css">
+    <link rel="stylesheet" href="styles/about-us.css">
     <link rel="icon" href="./images/z icon.jpeg">
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css"/>
 </head>
 <body>
-<!-- header section -->
     <header>
         <section class="container">
             <div class="block">
@@ -42,7 +43,7 @@
                     >
                 </li>
                 <li>
-                    კონტაქტი
+                    ჩვენ შესახებ
                 </li>
             </ul>
         </nav>
@@ -52,48 +53,33 @@
                 <div class="lt">
                     <img class="lt" src="../images/Path7251.png" alt="leaf2">
                 </div> 
-            </div>
-            <div class="map-side">
-                <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d23820.754187808776!2d44.7893391!3d41.7292731!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x404472b62082ebd3%3A0x46e27074f2e140ec!2z4YOT4YOQ4YOT4YOY4YOQ4YOc4YOY4YOhIOGDpeGDo-GDqeGDkCAjODc!5e0!3m2!1ska!2sge!4v1647888680768!5m2!1ska!2sge" width="479" height="400" style="border:0;" allowfullscreen="" loading="lazy"></iframe>            
-            </div>
-            <div class="contact-side">
-                <div class="address">
-                    <span><img src="./images/Path 10326.png" alt="pin"></span>
-                    <div class="address-box">
-                        <p class="text-big">მისამართი</p>
-                        <p class="text-small">თბილისი, დადიასნი ქ. N:124</p>
-                    </div>
-                </div>
-
-                <div class="phone"style="margin-left: 9%;">
-                    <span><img src="./images/Path 10327.png" alt="tel"></span>
-                    <div class="tel-box">
-                        <p class="text-big">ტელ. ნომერი</p>
-                        <a href="tel:+995555333222" class="text-small">(+995) 555 333 222</a>
-                    </div>
-                </div>
-
-                <div class="mail" style="margin-left: 9%;">
-                    <span><img src="./images/Path 10328.png" alt="email"></span>
-                    <div class="email-box">
-                        <p class="text-big">ელ.ფოსტა</p>
-                        <a href="mailto:example@gmail.com" class="text-small">example@gmail.com</a>
-                    </div>
-                </div>
-
-                <div class="hour" style="margin-left: 9%;">
-                    <span><img src="./images/Path 10329.png" alt="hour"></span>
-                    <div class="hours-box">
-                        <p class="text-big">სამუშაო საათები</p>
-                        <p class="text-small">ორშაბათი - პარასკევი: 09:00 - 18:00</p>
-                        <p class="text-small">შაბათი: 10:00 - 15:00</p>
-                    </div>
-                </div>
-            </div>
-            <div class="background">
                 <div class="rt">
                     <img class="rt" src="./images/Path7244.png" alt="leaf1">
                 </div>
+            </div>
+            <div class="swiper mySwiper">
+                <div class="swiper-wrapper">
+                  <div class="swiper-slide">
+                      <img src="./images/minidog-slider01.jpeg" alt="dog">
+                  </div>
+                  <div class="swiper-slide">
+                      <img src="./images/slider-dogssecond.jpeg" alt="">
+                  </div>
+                  <div class="swiper-slide">
+                      <img src="./images/slider-dogs.jpeg" alt="">
+                  </div>
+                  <div class="swiper-slide">
+                      <img src="./images/slider-dogsfour.jpeg" alt="">
+                  </div>
+                  <div class="swiper-slide">
+                      <img src="./images/slider-dogone.jpeg" alt="">
+                  </div>
+                </div>
+            </div>
+            <div class="about-us">
+                <h2>საიდან მოდის ეს ტექსტი?</h2>
+                <p>საბეჭდი და ტიპოგრაფიული ინდუსტრიის უშინაარსო ტექსტია. იგი სტანდარტად 1500-იანი წლებიდან იქცა, როდესაც უცნობმა მბეჭდავმა ამწყობ დაზგაზე წიგნის საცდელი ეგზემპლარი დაბეჭდა. მისი ტექსტი არამარტო 5 საუკუნის მანძილზე შემორჩა, არამედ მან დღემდე, ელექტრონული ტიპოგრაფიის დრომდეც უცვლელად მოაღწია. განსაკუთრებული პოპულარობა მას 1960-იან წლებში გამოსულმა Letraset-ის ცნობილმა ტრაფარეტებმა მოუტანა, უფრო მოგვიანებით კი — Aldus PageMaker-ის ტიპის საგამომცემლო პროგრამებმა, რომლებშიც Lorem Ipsum-ის სხვადასხვა ვერსიები იყო ჩაშენებული.</p>
+                <p>ცნობილი ფაქტია, რომ გვერდის წაკითხვად შიგთავსს შეუძლია მკითხველის ყურადღება მიიზიდოს და დიზაინის აღქმაში ხელი შეუშალოს. Lorem Ipsum-ის გამოყენებით ვღებულობთ იმაზე მეტ-ნაკლებად სწორი გადანაწილების ტექსტს, ვიდრე ერთიდაიგივე გამეორებადი სიტყვებია ხოლმე. შედეგად, ტექსტი ჩვეულებრივ ინგლისურს გავს, მისი წაითხვა კი შეუძლებელია. დღეს უამრავი პერსონალური საგამომცემლო პროგრამა და ვებგვერდი იყენებს Lorem Ipsum-ს, როგორც დროებით ტექსტს წყობის შესავსებად; Lorem Ipsum-ის მოძებნისას კი საძიებო სისტემები ბევრ დაუსრულებელ გვერდს გვიჩვენებენ. წლების მანძილზე ამ ტექსტის უამრავი ვერსია გამოჩნდა, ზოგი შემთხვევით დაშვებული შეცდომის გამო, ზოგი კი — განზრახ, ხუმრობით.</p>
             </div>
         </div>
     </section>
@@ -177,7 +163,16 @@
         </div>
     </footer>
 
-
-<script src="js/contact.js"></script>
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+    <script>
+        var swiper = new Swiper(".mySwiper", {
+          spaceBetween: 30,
+          centeredSlides: true,
+          autoplay: {
+            delay: 3000,
+            disableOnInteraction: false,
+          },
+        });
+    </script>
 </body>
 </html>
