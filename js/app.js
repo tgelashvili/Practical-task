@@ -4,7 +4,6 @@ function myFunction(x) {
   }
 
 //   slider - swiper
-
 const slides = document.querySelectorAll('.slide-item');
 const slideArea = document.querySelector('.slide-area');
 const slidesLength = slides.length;
@@ -99,18 +98,3 @@ dots.forEach((dot) => {
         renderSlider();
     });
 }); 
-
-
-
-//   shopping slider
-
-
-$(document).ready(function() {
-    $('#autoWidth').lightSlider({
-        autoWidth:true,
-        loop:true,
-        onSliderLoad: function() {
-            $('#autoWidth').removeClass('cS-hidden');
-        } 
-    });  
-  });
