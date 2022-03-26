@@ -88,6 +88,15 @@
     padding: 5px;
     cursor: pointer;
 }
+.contact-header a {
+    text-decoration: none;
+    color: #C8C8C8;
+    font-family: 'FiraGO';
+    font-size: 14px;
+}
+.contact-header a:hover {
+    color: black;
+}
 .map-side {
     margin-right: 100px;
 }
