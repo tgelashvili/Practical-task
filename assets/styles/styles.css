@@ -85,7 +85,19 @@
     background-color: #7ac57367;
     border-radius: 25px;
 }
+.mobile {
+    display: none;
+    color: black;
+    font-family: 'FiraGo';
+    cursor: pointer;
+}
+.mobile p{
+    padding-right: 10px;
 
+}
+.mobile :hover {
+    color: #6E6E6E;
+}
 /* slider - swiper */
 .slider{
     max-width:1186px;
@@ -384,7 +396,7 @@
 .item3 {
     position: relative;
     background-color: #75b528;;
-    background-image: url(../images/bird.png);
+    background-image: url(/assets/images/bird.png);
     background-position: 98% 85%;
     background-repeat: no-repeat;
     grid-area: item3;
@@ -424,7 +436,7 @@
 .item4 {
     position: relative;
     background-color: #f5af00;
-    background-image: url(../images/Rectangle\ 81.png);
+    background-image: url(/assets/images/Rectangle81.png);
     background-repeat: no-repeat;
     grid-area: item4;
     width: 782px;
@@ -483,6 +495,32 @@
     width: 100%;
     cursor: pointer;
 }
+.pagination {
+    display: none;
+    padding-left: 90px;
+}
+.pagination p {
+    color: #E7E7E7;
+    float: left;
+    padding: 8px 8px;
+    text-decoration: none;
+    background-color: #E7E7E7;
+}
+.pagination p.active {
+    background-color: #4CAF50;
+    color: #4CAF50;
+    border-radius: 4px;
+}
+.pagination p:hover:not(.active) {
+    background-color: #4CAF50;
+    border-radius: 4px;
+    color: #4CAF50;
+    cursor: pointer;
+}
+.pag-last {
+    border-radius:0 4px 4px 0;
+}
+
 hr {
     border: none;
 }
