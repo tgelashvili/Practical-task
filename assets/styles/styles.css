@@ -703,7 +703,7 @@ a {
     position: relative;;
     height: 500px;
     width: 378px;
-    margin-right: 26px;
+    /* margin-right: 26px; */
     box-shadow: 2px 2px 30px rgb(0 0 0 / 20%);
     border-radius: 10px;
 }
@@ -881,8 +881,8 @@ a {
 }
 .turtle img {
     position: absolute;
-    left: 99px;
-    top: 130px;
+    right: 1px;
+    bottom: 1px;
 }
 
 
@@ -1124,4 +1124,62 @@ footer {
     text-align: center;
     margin: 64px 30px 0 0;
 }
+.mob-footer {
+    display: none;
+}
 
+.pill-nav {
+    display: flex;
+    flex-direction: row;
+    max-width: 570px;
+    width: 100%;
+}
+.pill-nav a {
+    display: flex;
+    flex-direction: column;
+    color: black;
+    text-align: center;
+    padding: 10px;
+    text-decoration: none;
+    font-family: 'Myraid';
+    font-size: 10px;
+    border-radius: 5px;
+}
+.pill-nav a:hover {
+    background-color: rgba(215, 224, 181, 0.418);
+    color: #74B42C;
+}
+  
+  /* Add a color to the active/current link */
+.pill-nav a.active {
+    color: #74B42C;
+}
+.line {
+    background-color: #74B42C;
+    border-radius: 20px 20px;
+    height: 40px;
+    width: 40px;
+    text-align: center;
+    padding-top: 8px;
+}
+.line :hover {
+    color: yellow;
+}
+
+.bar4, .bar5, .bar6 {
+    width: 19px;
+    height: 2px;
+    background-color: white;
+    margin: 4px 11px;
+    transition: 0.4s;
+}
+.change .bar4 {
+    -webkit-transform: rotate(-45deg) translate(-9px, 6px);
+    transform: rotate(-45deg) translate(-4px, 4px);
+}
+.change .bar5 {opacity: 0;}
+
+.change .bar6 {
+    -webkit-transform: rotate(45deg) translate(-8px, -8px);
+    transform: rotate(45deg) translate(-5px, -5px);
+}
