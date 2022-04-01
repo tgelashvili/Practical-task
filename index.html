@@ -8,7 +8,7 @@
     <link rel="stylesheet" href="assets/fonts/fonts.css">
     <link rel="stylesheet" href="assets/styles/styles.css">
     <link rel="stylesheet" href="assets/media/media.css">
-    <link rel="stylesheet" type="text/css" href="styles/lightslider.css">
+    <!-- <link rel="stylesheet" type="text/css" href="styles/lightslider.css"> -->
     <link rel="icon" href="/assets/images/z icon.jpeg">
     <script src="https://kit.fontawesome.com/77486f2df7.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="https://unpkg.com/swiper@8/swiper-bundle.min.css"/>
@@ -151,9 +151,9 @@
                     <p> 1</p>
                     <p> 1</p>
                     <p> 1</p>
-                    <p> 1</p>
                     <p class="pag-last"> 1</p>
-                </div>   
+                </div>  
+                <hr/>
                 <hr/>
             </div>
             <section class="slidelist">
@@ -326,10 +326,19 @@
                 <button>პროდუქციის ნახვა</button>
             </div>
         </div>
-        <div class="block-5">
+        <div class="block-5 bot">
             <div class="slide-head">
                 <h2 style="float: left">ბოლოს დამატებული</h2>
                 <h6 style="float: right">ყველას ნახვა</h2>
+                <div class="pagination" style="float: right">
+                    <p class="active">1</a>
+                    <p> 1</p>
+                    <p> 1</p>
+                    <p> 1</p>
+                    <p> 1</p>
+                    <p class="pag-last"> 1</p>
+                </div>   
+                <hr/>
                 <hr/>
             </div>
             <section class="slidelist">
@@ -476,11 +485,24 @@
             </section>
         </div>
         <div class="block-7">
-            <img src="assets/images/Group 160.png" alt="">
+            <div class="turtle">
+                <h2>100% ნატურალური პროდუქცია შენი საუკეთესო მეგობრისათვის</h2>
+                <a href="#" target="blank"><h4 class="see-product">პროდუქციის ნახვა</h4></a>
+                <img src="assets/images/shutterstock_263854013.png" alt="turtle">
+            </div>
+            <img class="tur-none" src="assets/images/Group 160.png" alt="turtle">
         </div>
         <div class="block-8">
             <!-- Slider main container -->
-            <h2>ბრენდები</h2>
+            <h2 style="float: left;">ბრენდები</h2>
+            <div class="pagination" style="float: right;">
+                <p class="active">1
+                </p><p> 1</p>
+                <p> 1</p>
+                <p> 1</p>
+                <p> 1</p>
+                <p class="pag-last"> 1</p>
+            </div>
             <div class="swiper mySwiper">
                 <div class="swiper-wrapper">
                     <div class="swiper-slide">
@@ -513,7 +535,7 @@
                 </div>
                 <div class="swiper-button-next"></div>
                 <div class="swiper-button-prev"></div>
-              </div>
+            </div>
         </div>
         <div class="block-9">
             <div class="middle">
@@ -584,11 +606,11 @@
         </div>
     </footer>
 <script src="assets/js/app.js"></script>
-<script type="text/javascript" src="assets/js/lightslider.js"></script>
+<!-- <script src="assets/js/lightslider.js"></script> -->
 <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
 <script>
     var swiper = new Swiper(".mySwiper", {
-      slidesPerView: 1,
+      slidesPerView: 2,
       spaceBetween: 10,
         navigation: {
             nextEl: '.swiper-button-next',

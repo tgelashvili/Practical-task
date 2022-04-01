@@ -497,7 +497,7 @@
 }
 .pagination {
     display: none;
-    padding-left: 90px;
+    padding-left: 30px;
 }
 .pagination p {
     color: #E7E7E7;
@@ -844,6 +844,47 @@ a {
     top: 235px;
     left: 30px;
 }
+
+.block-7 {
+    max-width: 1140px;
+    width: 100%;
+}
+.turtle {
+    position: relative;
+    display: none;
+    background-color: #F5AD00;
+    width: 400px;
+    height: 340px;
+    padding-top: 30px;
+    padding-left: 30px;
+    border-radius: 10px;
+    margin-bottom: 30px;
+}
+.turtle h2 {
+    position: absolute;
+    font-size: 28px;
+    font-family: 'Myraid';
+    color: white;
+    max-width: 500px;
+}
+.see-product {
+    position: absolute;
+    font-size: 12px;
+    font-family: 'Firago';
+    border-radius: 6px;
+    display: inline-block;
+    background-color: white;
+    color: black;
+    padding: 14px 50px;
+    top: 200px;
+
+}
+.turtle img {
+    position: absolute;
+    left: 99px;
+    top: 130px;
+}
+
 
 /* bottom section, above footer */
 .block-9 {
