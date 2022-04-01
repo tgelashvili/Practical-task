@@ -396,7 +396,6 @@
 .item3 {
     position: relative;
     background-color: #75b528;
-    background-image: url(/assets/images/bird.png);
     background-image: url(../images/bird.png);
     background-position: 98% 85%;
     background-repeat: no-repeat;
@@ -437,7 +436,7 @@
 .item4 {
     position: relative;
     background-color: #f5af00;
-    background-image: url(/assets/images/Rectangle81.png);
+    background-image: url(../images/Rectangle81.png);
     background-repeat: no-repeat;
     grid-area: item4;
     width: 782px;
