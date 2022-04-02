@@ -498,6 +498,7 @@
 .pagination {
     display: none;
     padding-left: 30px;
+    cursor: pointer;
 }
 .pagination p {
     color: #E7E7E7;

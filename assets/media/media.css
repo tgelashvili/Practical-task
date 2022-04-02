@@ -31,7 +31,11 @@
     }
     .title {
         text-align: center;
-        top: 150px;
+        top: 50% !important;
+        left: 21% !important;
+    }
+    .dots {
+        left: 40% !important;
     }
     /* advertisment section */
     .block-3 {
@@ -124,6 +128,18 @@
     .bot h2 {
         padding-left: 32px;
         font-size: 18px;
+    }
+    .box {
+        width: 360px;
+    }
+    .type a {
+        padding: 5px 35px;
+    }
+    .type span {
+        padding: 5px 35px;
+    }
+    .slide-img img {
+        left: 29%;
     }
     .slide-head {
         display: flex;
