@@ -488,6 +488,7 @@ footer {
     display: none;
     position: absolute;
     bottom: 50px;
+    left: -30%;
     background-color: #6c8ba571;
     min-width: 60px;
     z-index: 1;
