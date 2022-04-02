@@ -1,6 +1,6 @@
 /* // Small */
 @media (max-width: 576px) {
-    .container{
+    .container, footer{
         max-width: 540px;
         width: 100%;
     }
@@ -162,6 +162,7 @@
         top: 235px;
     }
     .sec2 {
+        max-width: 540px;
         margin-top: 10px;
         margin-bottom: 10px;
     }

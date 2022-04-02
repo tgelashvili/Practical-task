@@ -269,6 +269,10 @@
     margin: 0 25px 0 0;
     border-radius: 10px;
 }
+.promo-text {
+    width: 170px;
+    word-break: break-word;
+}
 .promo-icon1 {
     padding: 10px;
 }
