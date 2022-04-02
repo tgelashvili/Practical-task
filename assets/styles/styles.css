@@ -1160,23 +1160,20 @@ footer {
 .pill-nav a.active {
     color: #74B42C;
 }
-.line {
+/* .line {
     background-color: #74B42C;
     border-radius: 20px 20px;
     height: 40px;
     width: 40px;
     text-align: center;
     padding-top: 8px;
-}
-.line :hover {
-    color: yellow;
-}
+} */
 
 .bar4, .bar5, .bar6 {
     width: 19px;
     height: 2px;
     background-color: white;
-    margin: 4px 11px;
+    margin: 0px 10px 5px 10px;
     transition: 0.4s;
 }
 .change .bar4 {
@@ -1188,4 +1185,55 @@ footer {
 .change .bar6 {
     -webkit-transform: rotate(45deg) translate(-8px, -8px);
     transform: rotate(45deg) translate(-5px, -5px);
+}
+
+
+
+
+/* Dropup Button */
+.dropbtn {
+    background-color: #74B42C;
+    border-radius: 20px 20px;
+    height: 40px;
+    width: 40px;
+    text-align: center;
+    padding-top: 8px;
+    cursor: pointer;
+    color: #74B42C;
+    border: none;
+  }
+  
+  /* The container <div> - needed to position the dropup content */
+  .dropup {
+    position: relative;
+    display: inline-block;
+  }
+  
+  /* Dropup content (Hidden by Default) */
+.dropup-content {
+    display: none;
+    position: absolute;
+    bottom: 50px;
+    background-color: #6c8ba571;
+    min-width: 60px;
+    z-index: 1;
+}
+  
+  /* Links inside the dropup */
+.dropup-content a {
+    color: black;
+    padding: 6px 10px;
+    text-decoration: none;
+    display: block;
+}
+.dropup-content a:hover {background-color: #ddd}
+  
+  /* Show the dropup menu on hover */
+.dropup:hover .dropup-content {
+    display: block;
+}
+  
+  /* Change the background color of the dropup button when the dropup content is shown */
+.dropup:hover .dropbtn {
+    background-color: rgba(96, 235, 16, 0.801);
 }
