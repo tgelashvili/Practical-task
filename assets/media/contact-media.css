@@ -1,0 +1,49 @@
+@media (max-width: 576px) {
+    .container {
+        max-width: 540px;
+        width: 100%;
+    }
+    .line-menu, .icon-bar {
+        display: none;
+    }
+    .lang-bar {
+        display: flex;
+        flex-direction: row;
+    }
+    .lang-bar p {
+        padding: 10px;
+        cursor: pointer;
+        font-family: 'FiraGO';
+        font-size: 14px;
+    }
+    .lang-bar :hover{
+        color: thistle;
+    }
+}
+
+
+
+
+
+
+
+@media (max-width: 768px) {
+    .container {
+        max-width: 720px;
+        width: 100%;
+    }
+
+
+
+}
+
+
+@media (max-width: 992px) {
+    .container {
+        max-width: 960px;
+        width: 100%;
+    }
+
+
+
+}
