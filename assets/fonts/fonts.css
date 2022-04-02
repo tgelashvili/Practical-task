@@ -7,3 +7,9 @@
     font-family: 'FiraGo';
     src: url(/assets/fonts/FiraGO-M.otf);
 }
+
+
+@font-face {
+    font-family: 'FiraL';
+    src: url(/assets/fonts/FiraGO.TTF);
+}
