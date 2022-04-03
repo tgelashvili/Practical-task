@@ -423,7 +423,7 @@ footer {
 .pill-nav {
     display: flex;
     flex-direction: row;
-    max-width: 570px;
+    max-width: 540px;
     width: 100%;
 }
 .pill-nav a {
@@ -489,9 +489,11 @@ footer {
     position: absolute;
     bottom: 50px;
     left: -30%;
-    background-color: #6c8ba571;
+    background-color: rgba(96, 235, 16, 0.885);
     min-width: 60px;
     z-index: 1;
+    border-radius: 6px;
+
 }
   
   /* Links inside the dropup */
