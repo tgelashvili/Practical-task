@@ -1,0 +1,730 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Category - Zootopia</title>
+    <link rel="stylesheet" href="assets/fonts/fonts.css">
+    <link rel="stylesheet" href="assets/styles/category.css">
+    <link rel="stylesheet" href="assets/media/aboutus-media.css">
+    <link rel="icon" href="assets/images/z icon.jpeg">
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css"/>
+    <script src="https://kit.fontawesome.com/77486f2df7.js" crossorigin="anonymous"></script>
+
+</head>
+<body>
+    <header>
+        <section class="container">
+            <div class="block">
+                <a href="#">
+                    <img src="assets/images/zootopia.png" alt="logo">
+                </a>
+
+                <div class="line-menu" onclick="myFunction(this)">
+                    <div class="bar1"></div>
+                    <div class="bar2"></div>
+                    <div class="bar3"></div>
+                    <div class="dropdown-content">
+                        <a href="index.html">მთავარი</a>
+                        <a href="about-us.html">ჩვენ შესახებ</a>
+                        <a href="contact.html">კონტაქტი</a>
+                        <a href="category.html">კატეგორიები</a>
+                    </div>
+                </div>
+
+                <div class="icon-bar">
+                    <a href="#"><img src="assets/images/search.png" alt="search">ძებნა</a> 
+                    <a href="#"><img src="assets/images/shopping-cart.png" alt="chart">კალათა</a> 
+                    <a href="#"><img src="assets/images/smile.jpeg" alt="login">შესვლა</a> 
+                </div>
+                <div class="lang-bar">
+                    <p>GEO</p>
+                    <p>ENG</p>
+                </div>
+            </div>
+        </section>
+    </header>
+    <section class="container">
+        <div class="sorter">
+            <nav class="contact-header">
+                <ul>
+                    <li class="mob-rem">
+                        <a href="index.html">მთავარი</a>    
+                    </li>
+                    <li class="mob-rem">
+                        <a href="#">></a>
+                    </li>
+                    <li class="mob-rem">
+                        <a href="#">ძაღლები</a>
+                    </li>
+                    <li class="mob-rem">
+                        <a href="#">></a>
+                    </li>
+                    <li>
+                        <a href="#">ზრდასრული ძაღლები</a>
+                    </li>
+
+                </ul>
+            </nav>
+            <div class="dropdown">
+                <button onclick="myFunction()" class="dropbtn">დალაგება:<p>ფასის ზრდის</p><span>^</span></button>
+                <div id="myDropdown" class="dropdown-content" id="myInput" onkeyup="filterFunction()">
+                    <a href="#">ფასის ზრდის</a>
+                    <a href="#">ფასის კლების</a>
+                    <a href="#">ახალი დამატებული</a>
+                    <a href="#">ძველი დამატებული</a>
+
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="container">
+        <div class="filter-sec">
+            <div class="price-range">
+                <div class="range-filter">
+                    <span>ფასი</span>
+                    <div class="range-controls">
+                        <div class="scale"><div style="margin-left:10px;width:150px;" class="bar"></div></div>
+
+                        <div class="toggle min-toggle" style="left:40px;"></div>
+                        <div class="toggle max-toggle" style="left:180px;"></div>
+                        <div class="scale-price" style="left:40px;">100 ₾</div>
+                        <div class="scale-price" style="left:180px;">500 ₾</div>
+                    </div>
+                    <div class="price-controls">
+                        <input class="min-price" type="text" value="100">
+                        <input class="max-price" type="text" value="500">
+                    </div>
+                </div>
+            </div>
+            <hr>
+            <div class="animal-age">
+                <p>ასაკი</p>
+                <label class="age-box"> ახალდაბადებული
+                    <input type="checkbox" checked="checked">
+                    <span class="checkmark"></span>
+                </label>
+                <label class="age-box">პატარა
+                    <input type="checkbox">
+                    <span class="checkmark"></span>
+                </label>
+                <label class="age-box">ზრდასრული
+                    <input type="checkbox">
+                    <span class="checkmark"></span>
+                </label>
+                <label class="age-box">ხნიერი
+                    <input type="checkbox">
+                    <span class="checkmark"></span>
+                </label>
+            </div>
+            <hr>
+            <div class="animal-species">
+                <p>ცხოველის სახეობა</p>
+                <label class="age-box">კატა
+                    <input type="checkbox" checked="checked">
+                    <span class="checkmark"></span>
+                </label>
+                <label class="age-box">ძაღლი
+                    <input type="checkbox">
+                    <span class="checkmark"></span>
+                </label>
+                <label class="age-box">კურდღელი
+                    <input type="checkbox">
+                    <span class="checkmark"></span>
+                </label>
+                <label class="age-box">კუ
+                    <input type="checkbox">
+                    <span class="checkmark"></span>
+                </label>
+                <label class="age-box">თევზი
+                    <input type="checkbox">
+                    <span class="checkmark"></span>
+                </label>
+                <label class="age-box">თუთიყუში
+                    <input type="checkbox">
+                    <span class="checkmark"></span>
+                </label>
+            </div>
+            <hr>
+            <div class="brand">
+                <p>ბრენდი</p>
+                <label class="age-box">ბრენდი 1
+                    <input type="checkbox" checked="checked">
+                    <span class="checkmark"></span>
+                </label>
+                <label class="age-box">ბრენდი 2
+                    <input type="checkbox">
+                    <span class="checkmark"></span>
+                </label>
+                <label class="age-box">ბრენდი 3
+                    <input type="checkbox">
+                    <span class="checkmark"></span>
+                </label>
+                <label class="age-box">ბრენდი 4
+                    <input type="checkbox">
+                    <span class="checkmark"></span>
+                </label>
+                <label class="age-box">ბრენდი 5
+                    <input type="checkbox">
+                    <span class="checkmark"></span>
+                </label>
+                <label class="age-box">ბრენდი 6
+                    <input type="checkbox">
+                    <span class="checkmark"></span>
+                </label>
+            </div>
+            <hr>
+            
+        </div>
+        <div class="product-sec">
+            <div class="block-5">
+                <section class="slidelist">
+                    <ul id="autoWidth" class="cs-hidden">
+                        <!--1------------------------------------>	
+                        <li class="item-a">
+                            <!--box-slider--------------->
+                            <div class="box">
+                                <!--img-box---------->
+                                <div class="slide-img">
+                                    <img src="assets/images/Rectangle 24.png" alt="1">
+                                        <i style="position: absolute;" class="fas fa-duotone fa-percent fa-2x"></i>
+                                    <!--overlayer---------->
+                                    <div class="overlay">
+                                    <!--buy-btn------>	
+                                    <a href="#" class="buy-btn">იყიდე</a>	
+                                    </div>
+                                </div>
+                                <!--detail-box--------->
+                                <div class="detail-box">
+                                    <!--type-------->
+                                    <div class="type">
+                                    <a href="#">პედიგრი</a>
+                                    <span>საბეჭდი და ტიპოგრაფიული ინდუსტრიის უშინაარსო ტექსტია.</span>
+                                    <div class="purchase-button">
+                                        <button class="selection">600გრ.</button>
+                                        <button class="selection">2კგ.</button>
+                                        <button class="selection">5კგ.</button>
+                                        <button class="selection">13კგ.</button>
+                                    </div>
+                                    <!--price-------->
+                                    <div class="price-cart">
+                                        <a href="#" style="color: red;" class="price">135 ₾</a>
+                                        <a href="#" class="price">
+                                            <i class="fas fa-solid fa-cart-arrow-down fa-x"></i>
+                                        </a>   
+                                    </div>
+                                    </div>
+                                </div>
+                            </div>		
+                        </li>
+                        <!--2------------------------------------>	
+                        <li class="item-b">
+                             <!--box-slider--------------->
+                             <div class="box">
+                                <!--img-box---------->
+                                <div class="slide-img">
+                                    <img src="assets/images/Rectangle 25.png" alt="1">
+                                    <!--overlayer---------->
+                                    <div class="overlay">
+                                    <!--buy-btn------>	
+                                    <a href="#" class="buy-btn">იყიდე</a>	
+                                    </div>
+                                </div>
+                                <!--detail-box--------->
+                                <div class="detail-box">
+                                    <!--type-------->
+                                    <div class="type">
+                                    <a href="#">პედიგრი</a>
+                                    <span>საბეჭდი და ტიპოგრაფიული ინდუსტრიის უშინაარსო ტექსტია.</span>
+                                    <div class="purchase-button">
+                                        <button class="selection">600გრ.</button>
+                                        <button class="selection">2კგ.</button>
+                                        <button class="selection">1 შეკვრა</button>
+                                    </div>
+                                    <!--price-------->
+                                    <div class="price-cart">
+                                        <a href="#" class="price">140.45 ₾</a>
+                                        <a href="#" class="price">
+                                            <i style="background-color: orange;" class="fas fa-solid fa-cart-arrow-down fa-x"></i>
+                                        </a>
+                                    </div>
+                                    </div>
+                                </div>
+                            </div>		
+                        </li>
+                        <!--3------------------------------------>	
+                        <li class="item-c">
+                            <!--box-slider--------------->
+                            <div class="box">
+                                <!--img-box---------->
+                                <div class="slide-img">
+                                    <img src="assets/images/Rectangle 26.png" alt="1">
+                                    <!--overlayer---------->
+                                    <div class="overlay">
+                                    <!--buy-btn------>	
+                                    <a href="#" class="buy-btn">იყიდე</a>	
+                                    </div>
+                                </div>
+                                <!--detail-box--------->
+                                <div class="detail-box">
+                                    <!--type-------->
+                                    <div class="type">
+                                    <a href="#">პედიგრი</a>
+                                    <span>საბეჭდი და ტიპოგრაფიული ინდუსტრიის უშინაარსო ტექსტია.</span>
+                                    <div class="purchase-button">
+                                        <button class="selection">400გრ.</button>
+                                        <button class="selection">8კგ.</button>
+                                    </div>
+                                    <!--price-------->
+                                    <div class="price-cart">
+                                        <br>
+                                        <a href="#" style="font-size: 14px" class="price">არ არის მარაგში</a>
+                                    </div>
+                                    <br>
+                                    </div>
+                                </div>
+                            </div>		
+                        </li>
+                        <!--4------------------------------------>	
+                        <li class="item-d">
+                         <!--box-slider--------------->
+                         <div class="box">
+                            <!--img-box---------->
+                            <div class="slide-img">
+                                <img src="assets/images/Rectangle 27.png" alt="1">
+                                <!--overlayer---------->
+                                <div class="overlay">
+                                <!--buy-btn------>	
+                                <a href="#" class="buy-btn">იყიდე</a>	
+                                </div>
+                            </div>
+                            <!--detail-box--------->
+                            <div class="detail-box">
+                                <!--type-------->
+                                <div class="type">
+                                <a href="#">პედიგრი</a>
+                                <span>საბეჭდი და ტიპოგრაფიული ინდუსტრიის უშინაარსო ტექსტია.</span>
+                                <div class="purchase-button">
+                                    <button class="selection">400გრ.</button>
+                                    <button class="selection">8კგ.</button>
+                                </div>                  
+                                <!--price-------->
+                                <div class="price-cart">
+                                    <a href="#" class="price">135 ₾</a>
+                                    <a href="#" class="price">
+                                        <button>დამატებულია</button>
+                                    </a>
+                                </div>
+                                </div>
+                            </div>
+                        </div>		
+                        </li>
+                        <!--5------------------------------------>	
+                        <li class="item-e">
+                            <!--box-slider--------------->
+                            <div class="box">
+                                <!--img-box---------->
+                                <div class="slide-img">
+                                    <img src="assets/images/Rectangle 24.png" alt="1">
+                                        <i style="position: absolute;" class="fas fa-duotone fa-percent fa-2x"></i>
+                                    <!--overlayer---------->
+                                    <div class="overlay">
+                                    <!--buy-btn------>	
+                                    <a href="#" class="buy-btn">იყიდე</a>	
+                                    </div>
+                                </div>
+                                <!--detail-box--------->
+                                <div class="detail-box">
+                                    <!--type-------->
+                                    <div class="type">
+                                    <a href="#">პედიგრი</a>
+                                    <span>საბეჭდი და ტიპოგრაფიული ინდუსტრიის უშინაარსო ტექსტია.</span>
+                                    <div class="purchase-button">
+                                        <button class="selection">600გრ.</button>
+                                        <button class="selection">2კგ.</button>
+                                        <button class="selection">5კგ.</button>
+                                        <button class="selection">13კგ.</button>
+                                    </div>
+                                    <!--price-------->
+                                    <div class="price-cart">
+                                        <a href="#" style="color: red;" class="price">135 ₾</a>
+                                        <a href="#" class="price">
+                                            <i class="fas fa-solid fa-cart-arrow-down fa-x"></i>
+                                        </a>   
+                                    </div>
+                                    </div>
+                                </div>
+                            </div>		
+                        </li>
+                        <!--6------------------------------------>	
+                        <li class="item-f">
+                             <!--box-slider--------------->
+                             <div class="box">
+                                <!--img-box---------->
+                                <div class="slide-img">
+                                    <img src="assets/images/Rectangle 25.png" alt="1">
+                                    <!--overlayer---------->
+                                    <div class="overlay">
+                                    <!--buy-btn------>	
+                                    <a href="#" class="buy-btn">იყიდე</a>	
+                                    </div>
+                                </div>
+                                <!--detail-box--------->
+                                <div class="detail-box">
+                                    <!--type-------->
+                                    <div class="type">
+                                    <a href="#">პედიგრი</a>
+                                    <span>საბეჭდი და ტიპოგრაფიული ინდუსტრიის უშინაარსო ტექსტია.</span>
+                                    <div class="purchase-button">
+                                        <button class="selection">600გრ.</button>
+                                        <button class="selection">2კგ.</button>
+                                        <button class="selection">1 შეკვრა</button>
+                                    </div>
+                                    <!--price-------->
+                                    <div class="price-cart">
+                                        <a href="#" class="price">140.45 ₾</a>
+                                        <a href="#" class="price">
+                                            <i style="background-color: orange;" class="fas fa-solid fa-cart-arrow-down fa-x"></i>
+                                        </a>
+                                    </div>
+                                    </div>
+                                </div>
+                            </div>		
+                        </li>
+                        <!--7------------------------------------>	
+                        <li class="item-g">
+                            <!--box-slider--------------->
+                            <div class="box">
+                                <!--img-box---------->
+                                <div class="slide-img">
+                                    <img src="assets/images/Rectangle 26.png" alt="1">
+                                    <!--overlayer---------->
+                                    <div class="overlay">
+                                    <!--buy-btn------>	
+                                    <a href="#" class="buy-btn">იყიდე</a>	
+                                    </div>
+                                </div>
+                                <!--detail-box--------->
+                                <div class="detail-box">
+                                    <!--type-------->
+                                    <div class="type">
+                                    <a href="#">პედიგრი</a>
+                                    <span>საბეჭდი და ტიპოგრაფიული ინდუსტრიის უშინაარსო ტექსტია.</span>
+                                    <div class="purchase-button">
+                                        <button class="selection">400გრ.</button>
+                                        <button class="selection">8კგ.</button>
+                                    </div>
+                                    <!--price-------->
+                                    <div class="price-cart">
+                                        <br>
+                                        <a href="#" style="font-size: 14px" class="price">არ არის მარაგში</a>
+                                    </div>
+                                    <br>
+                                    </div>
+                                </div>
+                            </div>		
+                        </li>
+                        <!--8------------------------------------>	
+                        <li class="item-h">
+                         <!--box-slider--------------->
+                         <div class="box">
+                            <!--img-box---------->
+                            <div class="slide-img">
+                                <img src="assets/images/Rectangle 27.png" alt="1">
+                                <!--overlayer---------->
+                                <div class="overlay">
+                                <!--buy-btn------>	
+                                <a href="#" class="buy-btn">იყიდე</a>	
+                                </div>
+                            </div>
+                            <!--detail-box--------->
+                            <div class="detail-box">
+                                <!--type-------->
+                                <div class="type">
+                                <a href="#">პედიგრი</a>
+                                <span>საბეჭდი და ტიპოგრაფიული ინდუსტრიის უშინაარსო ტექსტია.</span>
+                                <div class="purchase-button">
+                                    <button class="selection">400გრ.</button>
+                                    <button class="selection">8კგ.</button>
+                                </div>                  
+                                <!--price-------->
+                                <div class="price-cart">
+                                    <a href="#" class="price">135 ₾</a>
+                                    <a href="#" class="price">
+                                        <button>დამატებულია</button>
+                                    </a>
+                                </div>
+                                </div>
+                            </div>
+                        </div>		
+                        </li>
+                        <!--9------------------------------------>	
+                        <li class="item-i">
+                            <!--box-slider--------------->
+                            <div class="box">
+                                <!--img-box---------->
+                                <div class="slide-img">
+                                    <img src="assets/images/Rectangle 24.png" alt="1">
+                                        <i style="position: absolute;" class="fas fa-duotone fa-percent fa-2x"></i>
+                                    <!--overlayer---------->
+                                    <div class="overlay">
+                                    <!--buy-btn------>	
+                                    <a href="#" class="buy-btn">იყიდე</a>	
+                                    </div>
+                                </div>
+                                <!--detail-box--------->
+                                <div class="detail-box">
+                                    <!--type-------->
+                                    <div class="type">
+                                    <a href="#">პედიგრი</a>
+                                    <span>საბეჭდი და ტიპოგრაფიული ინდუსტრიის უშინაარსო ტექსტია.</span>
+                                    <div class="purchase-button">
+                                        <button class="selection">600გრ.</button>
+                                        <button class="selection">2კგ.</button>
+                                        <button class="selection">5კგ.</button>
+                                        <button class="selection">13კგ.</button>
+                                    </div>
+                                    <!--price-------->
+                                    <div class="price-cart">
+                                        <a href="#" style="color: red;" class="price">135 ₾</a>
+                                        <a href="#" class="price">
+                                            <i class="fas fa-solid fa-cart-arrow-down fa-x"></i>
+                                        </a>   
+                                    </div>
+                                    </div>
+                                </div>
+                            </div>		
+                        </li>
+                        <!--10------------------------------------>	
+                        <li class="item-j">
+                             <!--box-slider--------------->
+                             <div class="box">
+                                <!--img-box---------->
+                                <div class="slide-img">
+                                    <img src="assets/images/Rectangle 25.png" alt="1">
+                                    <!--overlayer---------->
+                                    <div class="overlay">
+                                    <!--buy-btn------>	
+                                    <a href="#" class="buy-btn">იყიდე</a>	
+                                    </div>
+                                </div>
+                                <!--detail-box--------->
+                                <div class="detail-box">
+                                    <!--type-------->
+                                    <div class="type">
+                                    <a href="#">პედიგრი</a>
+                                    <span>საბეჭდი და ტიპოგრაფიული ინდუსტრიის უშინაარსო ტექსტია.</span>
+                                    <div class="purchase-button">
+                                        <button class="selection">600გრ.</button>
+                                        <button class="selection">2კგ.</button>
+                                        <button class="selection">1 შეკვრა</button>
+                                    </div>
+                                    <!--price-------->
+                                    <div class="price-cart">
+                                        <a href="#" class="price">140.45 ₾</a>
+                                        <a href="#" class="price">
+                                            <i style="background-color: orange;" class="fas fa-solid fa-cart-arrow-down fa-x"></i>
+                                        </a>
+                                    </div>
+                                    </div>
+                                </div>
+                            </div>		
+                        </li>
+                        <!--11------------------------------------>	
+                        <li class="item-k">
+                            <!--box-slider--------------->
+                            <div class="box">
+                                <!--img-box---------->
+                                <div class="slide-img">
+                                    <img src="assets/images/Rectangle 26.png" alt="1">
+                                    <!--overlayer---------->
+                                    <div class="overlay">
+                                    <!--buy-btn------>	
+                                    <a href="#" class="buy-btn">იყიდე</a>	
+                                    </div>
+                                </div>
+                                <!--detail-box--------->
+                                <div class="detail-box">
+                                    <!--type-------->
+                                    <div class="type">
+                                    <a href="#">პედიგრი</a>
+                                    <span>საბეჭდი და ტიპოგრაფიული ინდუსტრიის უშინაარსო ტექსტია.</span>
+                                    <div class="purchase-button">
+                                        <button class="selection">400გრ.</button>
+                                        <button class="selection">8კგ.</button>
+                                    </div>
+                                    <!--price-------->
+                                    <div class="price-cart">
+                                        <br>
+                                        <a href="#" style="font-size: 14px" class="price">არ არის მარაგში</a>
+                                    </div>
+                                    <br>
+                                    </div>
+                                </div>
+                            </div>		
+                        </li>
+                        <!--12------------------------------------>	
+                        <li class="item-l">
+                         <!--box-slider--------------->
+                         <div class="box">
+                            <!--img-box---------->
+                            <div class="slide-img">
+                                <img src="assets/images/Rectangle 27.png" alt="1">
+                                <!--overlayer---------->
+                                <div class="overlay">
+                                <!--buy-btn------>	
+                                <a href="#" class="buy-btn">იყიდე</a>	
+                                </div>
+                            </div>
+                            <!--detail-box--------->
+                            <div class="detail-box">
+                                <!--type-------->
+                                <div class="type">
+                                <a href="#">პედიგრი</a>
+                                <span>საბეჭდი და ტიპოგრაფიული ინდუსტრიის უშინაარსო ტექსტია.</span>
+                                <div class="purchase-button">
+                                    <button class="selection">400გრ.</button>
+                                    <button class="selection">8კგ.</button>
+                                </div>                  
+                                <!--price-------->
+                                <div class="price-cart">
+                                    <a href="#" class="price">135 ₾</a>
+                                    <a href="#" class="price">
+                                        <button>დამატებულია</button>
+                                    </a>
+                                </div>
+                                </div>
+                            </div>
+                        </div>		
+                        </li>
+                    </ul>
+                </section>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- <section class="container">
+        <div class="data-box">
+            <div class="background1">
+                <div class="rb">
+                    <img class="rb" src="assets/images/Path7248.png" alt="leaf3">
+                </div>
+            </div>
+            <div class="middle">
+                <div class="middle1">
+                    <img src="assets/images/zootopia 2.png" alt="small logo">
+                    <p>
+                        საბეჭდი და ტიპოგრაფიული ინდუსტრიის უშინაარსო ტექსტია. იგი სტანდარტად 1500-იანი წლებიდან იქცა, როდესაც უცნობმა მბეჭდავმა ამწყობ დაზგაზე წიგნის საცდელი ეგზემპლარი დაბეჭდა.
+                    </p>
+                </div>
+            </div>
+            <div class="site-footer">
+                <div class="boxx">
+                    <div class="row">
+                        <div class="col-1">
+                            <h6>კატეგორიები</h6>
+                            <ul class="footer-links">
+                            <li><a href="category.html">ძაღლები</a></li>
+                            <li><a href="#">კატები</a></li>
+                            <li><a href="#">თევზები</a></li>
+                            <li><a href="#">ფრინველები</a></li>
+                            <li><a href="#">მღრნელები</a></li>
+                            <li><a href="#">რეპტილიები</a></li>
+                            </ul>
+                        </div>
+                        <div class="col-2">
+                            <h6>მენიუ</h6>
+                            <ul class="footer-links">
+                                <li><a href="index.html">მთავარი</a></li>
+                                <li><a href="about-us.html">ჩვენ შესახებ</a></li>
+                                <li><a href="#">წესები და პირობები</a></li>
+                                <li><a href="#">ავტორიზაცია</a></li>
+                                <li><a href="#">რეგისტრაცია</a></li>
+                                <li><a href="contact.html">კონტაქტი</a></li>
+                            </ul>
+                        </div>
+                        <div class="col-3">
+                            <h6>კონტაქტი</h6>
+                            <ul class="footer-links">
+                                <li><a href="#">თბილისი, დადიასნი ქ. N:124</a></li>
+                                <li><a href="tel:+995555333222">(+995) 555 333 222</a></li>
+                                <li><a href="mailto:example@gmail.com">example@gmail.com</a></li>
+                                <li class="sol-fb"><p><a href="https://www.facebook.com" target="_blank">f</a></p></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>  
+            </div>
+            <div class="background1">
+                <div class="lb">
+                    <img class="lb" src="assets/images/Path7242.png" alt="leaf4">
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer>
+        <div class="part1">
+            <img src="assets/images/Intersection 16.png" alt="background">
+            <p>ყველა უფლება დაცულია.</p>
+        </div>
+        <div class="part2">
+            <img src="assets/images/Intersection 14.png" alt="background">
+            <p>დამზადებულია <span>Smartweb</span> -ში</p>
+        </div>
+        <div class="part3">
+            <img src="assets/images/Intersection 15.png" alt="background">
+        <div class="fo-lo">
+            <a href="#"><img src="assets/images/Icon payment-visa.png" alt="visa"></a>
+            <a href="#"><img src="assets/images/Icon payment-mastercard.png" alt="MC"></a>
+            <a href="#"><img class="tbc" src="assets/images/tbc.png" alt="tbc"></a>
+        </div>
+        </div>
+        <div class="mob-footer">
+            <div class="logos">
+                <a href="#"><img src="assets/images/Icon payment-visa.png" alt="visa"></a>
+                <a href="#"><img src="assets/images/Icon payment-mastercard.png" alt="MC"></a>
+                <a href="#"><img src="assets/images/Logo white.svg" alt="tbc"></a>
+            </div>
+            <div class="smart">
+                <p>დამზადებულია <span>Smartweb</span> -ში</p>
+                <p style="color: #9C9C9C;">ყველა უფლება დაცულია.</p>
+            </div>
+            <div class="pill-nav">
+                <a class="active" href="index.html"><img src="assets/images/home-alt.svg" alt="home"> მთავარი</a>
+                <a href="#"><img src="assets/images/search.svg" alt="search"> ძებნა</a>
+                <div class="dropup line" onclick="myFunction(this)">
+                    <button class="dropbtn">
+                        <div class="bar4"></div>
+                        <div class="bar5"></div>
+                        <div class="bar6"></div>
+                    </button>
+                    <div class="dropup-content">
+                        <a href="index.html">მთავარი</a>
+                        <a href="about-us.html">ჩვენ შესახებ</a>
+                        <a href="contact.html">კონტაქტი</a>
+                    </div>
+                  </div>
+                <a href="#contact"><img src="assets/images/shopping-cart.svg" alt="cart"> კალათა</a>
+                <a href="#about"><img src="assets/images/smile.svg" alt="smile"> შესვლა</a>
+            </div>
+
+        </div>
+    </footer> -->
+
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+    <script>
+        var swiper = new Swiper(".mySwiper", {
+          spaceBetween: 30,
+          centeredSlides: true,
+          autoplay: {
+            delay: 3000,
+            disableOnInteraction: false,
+          },
+        });
+    </script>
+    <script src="/assets/js/contact.js"></script>
+
+</body>
+</html>
