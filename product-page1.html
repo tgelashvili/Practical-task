@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Category - Zootopia</title>
     <link rel="stylesheet" href="assets/fonts/fonts.css">
-    <link rel="stylesheet" href="assets/styles/category.css">
+    <link rel="stylesheet" href="assets/styles/product-page1.css">
     <link rel="stylesheet" href="assets/media/aboutus-media.css">
     <link rel="icon" href="assets/images/z icon.jpeg">
     <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css"/>
@@ -53,21 +53,133 @@
                     <a href="#">></a>
                 </li>
                 <li class="mob-rem">
-                    <a href="#">ძაღლები</a>
+                    <a href="#">კატეგორია</a>
+                </li>
+                <li class="mob-rem">
+                    <a href="#">></a>
+                </li>
+                <li class="mob-rem">
+                    <a href="#">ქვე კატეგორია</a>
                 </li>
                 <li class="mob-rem">
                     <a href="#">></a>
                 </li>
                 <li>
-                    <a href="#">ზრდასრული ძაღლები</a>
+                    <a href="#">პროდუქტის დასახელება</a>
                 </li>
 
             </ul>
         </nav>
     </section>
-
-
     <section class="container">
+        <div class="product-lightbox">
+            <!-- Images used to open the lightbox -->
+            <div class="row">
+                <div class="column">
+                <img src="./assets/images/pedegree1.jpg" onclick="openModal();currentSlide(1)" class="hover-shadow">
+                </div>
+                <div class="column">
+                <img src="./assets/images/pedigree.jpg" onclick="openModal();currentSlide(2)" class="hover-shadow">
+                </div>
+                <div class="column">
+                <img src="./assets/images/pedigree.jpg" onclick="openModal();currentSlide(3)" class="hover-shadow">
+                </div>
+                <div class="column">
+                <img src="./assets/images/pedigree.jpg" onclick="openModal();currentSlide(4)" class="hover-shadow">
+                </div>
+            </div>
+  
+            <!-- The Modal/Lightbox -->
+            <div id="myModal" class="modal">
+                <span class="close cursor" onclick="closeModal()">&times;</span>
+                <div class="modal-content">
+            
+                <div class="mySlides">
+                    <div class="numbertext">1 / 4</div>
+                    <img src="./assets/images/pedigree.jpg" style="width:100%">
+                </div>
+            
+                <div class="mySlides">
+                    <div class="numbertext">2 / 4</div>
+                    <img src="./assets/images/pedigree.jpg" style="width:100%">
+                </div>
+            
+                <div class="mySlides">
+                    <div class="numbertext">3 / 4</div>
+                    <img src="./assets/images/pedigree.jpg" style="width:100%">
+                </div>
+            
+                <div class="mySlides">
+                    <div class="numbertext">4 / 4</div>
+                    <img src="./assets/images/pedigree.jpg" style="width:100%">
+                </div>
+            
+                <!-- Next/previous controls -->
+                <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+                <a class="next" onclick="plusSlides(1)">&#10095;</a>
+            
+                <!-- Caption text -->
+                <div class="caption-container">
+                    <p id="caption"></p>
+                </div>
+            
+                <!-- Thumbnail image controls -->
+                <div class="column">
+                    <img class="demo" src="./assets/images/pedigree.jpg" onclick="currentSlide(1)" alt="Age 0-1">
+                </div>
+            
+                <div class="column">
+                    <img class="demo" src="./assets/images/pedigree.jpg" onclick="currentSlide(2)" alt="Age 1-3">
+                </div>
+            
+                <div class="column">
+                    <img class="demo" src="./assets/images/pedigree.jpg" onclick="currentSlide(3)" alt="Age 2-3">
+                </div>
+            
+                <div class="column">
+                    <img class="demo" src="./assets/images/pedigree.jpg" onclick="currentSlide(4)" alt="Age 3-old">
+                </div>
+            </div>
+            </div>
+            <div class="main-product">
+                <img src="/assets/images/pedigree.jpg" alt="sliderbig">
+            </div>
+            <div class="about-product">
+                <p class="prod-name">ედვანსი მოზარდი ძაღლი Maxi Junior <span>14 კგ</span></p>
+                <span class="prod-code">#12312412</span>
+                <a href="http://www.facebook.com" target="_blank"> <img src="assets/images/facebook.svg" alt="fb"> </a>
+                <span class="fb-share">გააზიარე</span>
+                <div class="weight-but">
+                    <button>600გრ.</button>
+                    <button>5 კგ.</button>  
+                    <button>13 კგ.</button>
+                    <button>2 კგ.</button>
+                </div>
+
+                <p class="prod-text">საბეჭდი და ტიპოგრაფიული ინდუსტრიის უშინაარსო ტექსტია. იგი სტანდარტად 1500-იანი წლებიდან იქცა, როდესაც უცნობმა მბეჭდავმა ამწყობ დაზგაზე წიგნის საცდელი ეგზემპლარი დაბეჭდა. მისი ტექსტი არამარტო 5 საუკუნის მანძილზე შემორჩა, არამედ მან დღემდე, ელექტრონული ტიპოგრაფიის დრომდეც უცვლელად მოაღწია. განსაკუთრებული პოპულარობა მას 1960-იან წლებში გამოსულმა Letraset-ის ცნობილმა ტრაფარეტებმა მოუტანა, უფრო მოგვიანებით კი — Aldus PageMaker-ის ტიპის საგამომცემლო პროგრამებმა, რომლებშიც Lorem Ipsum-ის სხვადასხვა ვერსიები იყო ჩაშენებული. ცნობილი ფაქტია, რომ გვერდის წაკითხვად შიგთავსს შეუძლია მკითხველის ყურადღება მიიზიდოს და დიზაინის აღქმაში ხელი შეუშალოს. Lorem Ipsum-ის გამოყენებით ვღებულობთ იმაზე მეტ-ნაკლებად სწორი გადანაწილების ტექსტს, ვიდრე ერთიდაიგივე გამეორებადი სიტყვებია ხოლმე. შედეგად, ტექსტი ჩვეულებრივ ინგლისურს გავს, მისი წაითხვა კი შეუძლებელია. დღეს უამრავი პერსონალური საგამომცემლო პროგრამა და ვებგვერდი იყენებს Lorem Ipsum-ს, როგორც დროებით ტექსტს წყობის შესავსებად; Lorem Ipsum-ის მოძებნისას კი საძიებო სისტემები ბევრ დაუსრულებელ გვერდს გვიჩვენებენ. წლების მანძილზე ამ ტექსტის უამრავი ვერსია გამოჩნდა, ზოგი შემთხვევით დაშვებული შეცდომის გამო, ზოგი კი — განზრახ, ხუმრობით.</p>
+                <button class="see-more">მეტის ნახვა</button>
+            </div>
+            <div class="add-part">
+                <span>135.30 ₾</span>
+                <span>158.50 ₾</span>
+                <div class="add-more">
+                    <img src="" alt="plus">
+                    <span>5</span>
+                    <img src="" alt="minus">
+                </div>
+                <div class="add-cart">
+                    <span>კალათაში დამატება</span>
+                    <img src="" alt="cart">
+                </div>
+                <div class="addvert-image">
+                    <img src="assets/images/Rectangle 38.png" alt="royal canin">
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- <section class="container">
         <div class="data-box">
             <div class="background1">
                 <div class="rb">
@@ -166,6 +278,7 @@
                         <a href="index.html">მთავარი</a>
                         <a href="about-us.html">ჩვენ შესახებ</a>
                         <a href="contact.html">კონტაქტი</a>
+                        <a href="category.html">კატეგორიები</a>
                     </div>
                   </div>
                 <a href="#contact"><img src="assets/images/shopping-cart.svg" alt="cart"> კალათა</a>
@@ -173,20 +286,9 @@
             </div>
 
         </div>
-    </footer>
+    </footer> -->
 
-    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
-    <script>
-        var swiper = new Swiper(".mySwiper", {
-          spaceBetween: 30,
-          centeredSlides: true,
-          autoplay: {
-            delay: 3000,
-            disableOnInteraction: false,
-          },
-        });
-    </script>
-    <script src="/assets/js/contact.js"></script>
+    <script src="assets/js/product1.js"></script>
 
 </body>
 </html>

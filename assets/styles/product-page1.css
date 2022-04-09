@@ -127,8 +127,6 @@ header {
     display: none;
 }
 
-
-
 /* section start */
 .contact-header{
     max-width: 1187px;
@@ -154,16 +152,9 @@ header {
     text-decoration: none;
     color: #111111;
 }
-
 .contact-header a:hover {
     color: black;
 }
-
-
-
-
-
-
 
 /* second section */
 .background1 {
@@ -216,6 +207,235 @@ header {
     letter-spacing: 1px;
     margin-bottom: 30px;
 }
+
+/* product lightbox */
+.product-lightbox {
+    display: flex;
+    margin-top: 60px;
+}
+.row > .column {
+    padding: 0 8px;
+}
+.row {
+    display: flex;
+    flex-direction: column;
+    width: 100px;
+    margin-top: 61px;
+}
+  
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+  
+  /* Create four equal columns that floats next to eachother */
+.column {
+    float: left;
+    /* width: 25%; */
+}
+.column img {
+    width: 75px;
+    object-fit: contain;
+    box-shadow: 0px 8px 16px 0px rgb(0 0 0 / 20%);
+}
+  
+  /* The Modal (background) */
+.modal {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    padding-top: 100px;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: black;
+}
+  
+  /* Modal Content */
+.modal-content {
+    position: relative;
+    background-color: #fefefe;
+    margin: auto;
+    padding: 0;
+    width: 50%;
+    max-width: 1200px;
+}
+  
+  /* The Close Button */
+.close {
+    color: white;
+    position: absolute;
+    top: 10px;
+    right: 25px;
+    font-size: 35px;
+    font-weight: bold;
+}
+  
+.close:hover, .close:focus {
+    color: #999;
+    text-decoration: none;
+    cursor: pointer;
+}
+  
+  /* Hide the slides by default */
+.mySlides {
+    display: none;
+}
+  
+  /* Next & previous buttons */
+.prev,
+.next {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    padding: 16px;
+    margin-top: -50px;
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+    transition: 0.6s ease;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+    -webkit-user-select: none;
+}
+  
+  /* Position the "next button" to the right */
+.next {
+    right: 0;
+    border-radius: 3px 0 0 3px;
+}
+  
+  /* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+    background-color: rgba(0, 0, 0, 0.8);
+}
+  
+  /* Number text (1/3 etc) */
+.numbertext {
+    color: #f2f2f2;
+    font-size: 12px;
+    padding: 8px 12px;
+    position: absolute;
+    top: 0;
+}
+  
+  /* Caption text */
+.caption-container {
+    text-align: center;
+    background-color: black;
+    padding: 2px 16px;
+    color: white;
+}
+  
+img.demo {
+    opacity: 0.6;
+}
+  
+.active, .demo:hover {
+    opacity: 1;
+}
+  
+img.hover-shadow {
+    transition: 0.3s;
+}
+  
+.hover-shadow:hover {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+/* main product section */
+.main-product img {
+    width: 378px;
+    height: 370px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    margin: 0 26px 26px 26px;
+    
+}
+.about-product {
+    max-width: 378px;
+}
+.prod-name {
+    max-width: 290px;
+    width: 100%;
+    /* float: left; */
+}
+.prod-name p {
+    font-family: 'Myraid';
+    font-size: 18px;
+}
+.prod-name span {
+    font-family: 'Myraid';
+    font-size: 18px;
+}
+.prod-code {
+    color: #9C9C9C;
+    font-family: 'FiraGO';
+    font-size: 12px;
+    padding-left: 46px;
+    padding-right: 25px;
+}
+.fb-share {
+    font-family: 'FiraGO';
+    font-size: 12px;
+    font-weight: 600;
+}
+.weight-but {
+    max-width: 355px;
+    width: 100%;
+    margin-top: 19px;
+    padding-left: 27px;
+}
+.weight-but button{
+    background-color: #E7E7E7;
+    border-radius: 4px;
+    width: 105px;
+    height: 35px;
+    font-family: 'FiraGo';
+    font-size: 13px;
+    border: none;
+    /* margin: 29px 10px 10px 0; */
+    margin-right: 1px;
+    margin-top: 10px;
+    opacity: 30%;
+}
+.weight-but button:hover {
+    opacity: 100%;
+}
+.prod-text {
+    max-width: 378px;
+    width: 100%;
+    word-break: break-word;
+    font-family: 'FiraL';
+    font-size: 12px;
+    padding-left: 40px;
+    margin-top: 30px;
+    height: 111px;
+    overflow: hidden;
+    line-height: 19px;
+}
+
+.see-more {
+    color: #9C9C9C;
+    background-color: transparent;
+    font-family: 'FiraL';
+    font-size: 12px;
+    max-width: 378px;
+    width: 100%;
+    border: none;
+    margin-top: 25px;
+}
+.see-more:after{
+    display: block;
+    content: '\005E';
+    padding-top: 5px;
+
+}
+
+
 
 /* Footer */
 .mob-footer {
