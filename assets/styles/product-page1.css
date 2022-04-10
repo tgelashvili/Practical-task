@@ -357,6 +357,7 @@ img.hover-shadow {
 }
 .about-product {
     max-width: 378px;
+    width: 100%;
 }
 .prod-name {
     max-width: 290px;
@@ -417,7 +418,6 @@ img.hover-shadow {
     overflow: hidden;
     line-height: 19px;
 }
-
 .see-more {
     color: #9C9C9C;
     background-color: transparent;
@@ -435,13 +435,50 @@ img.hover-shadow {
 
 }
 
+/* addvertisment section */
+.add-part {
+    max-width: 277px;
+    width: 100%;
+    height: 256px;
+    box-shadow: 0px 8px 16px 0px rgb(0 0 0 / 10%);
+}
+.add-price {
+    font-family: 'FiraGO';
+    font-size: 24px;
+    color: #F5621F;
+}
+.add-dics {
+    font-family: 'FiraGO';
+    font-size: 14px;
+    text-decoration: line-through;
+}
+.add-more {
+    width: 217px;
+    height: 54px;
+    background-color: #F8F8F8;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.add-more img {
+    width: 24px;
+    height: 24px;
+    background-color: #FFFFFF;
+}
+.add-more span {
+    font-family: 'FiraGO';
+    font-size: 24px;
+}
+
+
 
 
 /* Footer */
 .mob-footer {
     display: none;
 }
-
 .site-footer{
     max-width: 600px;
     width: 100%;
@@ -552,6 +589,7 @@ img.hover-shadow {
     font-weight:600;
   }
 }
+
 
 /* footer section */
 footer {
