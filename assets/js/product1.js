@@ -38,3 +38,10 @@ function showSlides(n) {
     dots[slideIndex-1].className += " active";
     captionText.innerHTML = dots[slideIndex-1].alt;
 }
+
+
+var clicks = 0;
+function onClick(){
+    clicks +=1;
+    document.getElementById("clicks").innerHTML = clicks
+}

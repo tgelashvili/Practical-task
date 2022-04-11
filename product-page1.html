@@ -154,7 +154,6 @@
                     <button>13 კგ.</button>
                     <button>2 კგ.</button>
                 </div>
-
                 <p class="prod-text">საბეჭდი და ტიპოგრაფიული ინდუსტრიის უშინაარსო ტექსტია. იგი სტანდარტად 1500-იანი წლებიდან იქცა, როდესაც უცნობმა მბეჭდავმა ამწყობ დაზგაზე წიგნის საცდელი ეგზემპლარი დაბეჭდა. მისი ტექსტი არამარტო 5 საუკუნის მანძილზე შემორჩა, არამედ მან დღემდე, ელექტრონული ტიპოგრაფიის დრომდეც უცვლელად მოაღწია. განსაკუთრებული პოპულარობა მას 1960-იან წლებში გამოსულმა Letraset-ის ცნობილმა ტრაფარეტებმა მოუტანა, უფრო მოგვიანებით კი — Aldus PageMaker-ის ტიპის საგამომცემლო პროგრამებმა, რომლებშიც Lorem Ipsum-ის სხვადასხვა ვერსიები იყო ჩაშენებული. ცნობილი ფაქტია, რომ გვერდის წაკითხვად შიგთავსს შეუძლია მკითხველის ყურადღება მიიზიდოს და დიზაინის აღქმაში ხელი შეუშალოს. Lorem Ipsum-ის გამოყენებით ვღებულობთ იმაზე მეტ-ნაკლებად სწორი გადანაწილების ტექსტს, ვიდრე ერთიდაიგივე გამეორებადი სიტყვებია ხოლმე. შედეგად, ტექსტი ჩვეულებრივ ინგლისურს გავს, მისი წაითხვა კი შეუძლებელია. დღეს უამრავი პერსონალური საგამომცემლო პროგრამა და ვებგვერდი იყენებს Lorem Ipsum-ს, როგორც დროებით ტექსტს წყობის შესავსებად; Lorem Ipsum-ის მოძებნისას კი საძიებო სისტემები ბევრ დაუსრულებელ გვერდს გვიჩვენებენ. წლების მანძილზე ამ ტექსტის უამრავი ვერსია გამოჩნდა, ზოგი შემთხვევით დაშვებული შეცდომის გამო, ზოგი კი — განზრახ, ხუმრობით.</p>
                 <button class="see-more">მეტის ნახვა</button>
             </div>
@@ -163,13 +162,13 @@
                 <span class="add-price">135.30 ₾</span>
                 <span class="add-dics">158.50 ₾</span>
                 <div class="add-more">
-                    <img src="assets/images/math-minus.svg" alt="plus">
-                    <span>5</span>
-                    <img src="assets/images/math-plus.svg" alt="minus">
+                    <img src="assets/images/math-minus.svg"  alt="plus">
+                    <span id="clicks">5</span>
+                    <img src="assets/images/math-plus.svg" onclick="onClick()" alt="minus">
                 </div>
                 <div class="add-cart">
                     <span>კალათაში დამატება</span>
-                    <img src="" alt="cart">
+                <a class="cart-box"  href="#"><img src="assets/images/shopping-cart1.svg" alt="cart"></a>
                 </div>
                 <div class="addvert-image">
                     <img src="assets/images/Rectangle 38.png" alt="royal canin">
@@ -177,9 +176,31 @@
             </div>
         </div>
     </section>
+    <section class="container">
+        <div class="dog-table">
+            <h1>დამატებითი ინფორმაცია</h1>
+            <table class="dog-1" id="species">
+                <tr><th>ცხოველის სახეობა</th><td>ძაღლი</td></tr>
+                <tr><th>მასალა</th><td>ძაღლი</td></tr>
+                <tr><th>ასაკი</th><td>3 წლის</td></tr>
+                <tr><th>ჯიში</th><td>ლაბრადორი</td></tr>
+            </table>
+            <table class="dog-2" id="species">
+                <tr><th>ზომა</th><td>საშუალო</td></tr>
+                <tr><th>ფორმა</th><td>საშუალო</td></tr>
+                <tr><th>წონა</th><td>14 კგ.</td></tr>
+                <tr><th>საკვების კლასი</th><td>ეკონომი</td></tr>
+            </table>
+            <table class="dog-3" id="species">
+                <tr><th>ოჯახი</th><td>უცნობია</td></tr>
+                <tr><th>ხასიათი</th><td>მეგობრული</td></tr>
+                <tr><th>წყლის ტემპერატურა</th><td> <h2 class="degree">36</h2></td></tr>
+                <tr><th>გემო</th><td>ბატკანი და ბრინჯი</td></tr>
+            </table>
+        </div>
+    </section>
 
-
-    <!-- <section class="container">
+    <section class="container">
         <div class="data-box">
             <div class="background1">
                 <div class="rb">
@@ -196,7 +217,7 @@
             </div>
             <div class="site-footer">
                 <div class="boxx">
-                    <div class="row">
+                    <div class="row-box">
                         <div class="col-1">
                             <h6>კატეგორიები</h6>
                             <ul class="footer-links">
@@ -286,7 +307,7 @@
             </div>
 
         </div>
-    </footer> -->
+    </footer>
 
     <script src="assets/js/product1.js"></script>
 
