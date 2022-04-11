@@ -232,7 +232,7 @@ header {
   /* Create four equal columns that floats next to eachother */
 .column {
     float: left;
-    /* width: 25%; */
+    width: 25%;
 }
 .column img {
     width: 75px;
@@ -431,7 +431,6 @@ img.hover-shadow {
     display: block;
     content: '\005E';
     padding-top: 5px;
-
 }
 
 /* addvertisment section */
@@ -440,6 +439,11 @@ img.hover-shadow {
     width: 100%;
     height: 256px;
     box-shadow: 0px 8px 16px 0px rgb(0 0 0 / 10%);
+    padding-top: 30px;
+    /* padding-left: 30px; */
+}
+.add-part span {
+    padding-left: 15px;
 }
 .add-price {
     font-family: 'FiraGO';
@@ -502,7 +506,8 @@ img.hover-shadow {
 }
 .addvert-image {
     margin-top: 60px;
-    width: 277px;
+    max-width: 277px;
+    width: 100%;
     height: 90px;
     background-color: white;
     text-align: center;
@@ -533,6 +538,7 @@ table {
     font-family: 'Myraid';
     font-size: 28px;
     padding-left: 40px;
+    margin-bottom: 41px;
 }   
 th, td{
     text-align: left;
@@ -695,6 +701,7 @@ footer {
     font-family: 'FiraGO';
     color: #9C9C9C;
     font-size: 14px;
+    left: 90px;
 }
 .part2 {
     display: flex;
