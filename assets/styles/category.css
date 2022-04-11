@@ -210,6 +210,11 @@ header {
     cursor: pointer;
     background-color: transparent;
 }
+.dropbtn p:after{
+    content: ' \02C7';
+    margin-left: 5px;
+    color: #C8C8C8;
+}
 .dropbtn:hover, .dropbtn:focus {
     color: #3e8e41;
 }
@@ -294,6 +299,11 @@ hr {
     width:240px;
     margin:auto;
     margin-bottom:10px;
+}
+.range-filter span:after{
+    content: ' \02C6';
+    margin-left: 120px;
+    color: #C8C8C8;
 }
 .range-controls {
     position:relative;
@@ -387,6 +397,73 @@ hr {
     margin-bottom: 20px;
     padding: 0 30px;
 }
+
+.animal-age p:after{
+    content: ' \02C6';
+    margin-left: 120px;
+    color: #C8C8C8;
+}
+.animal-species p:after{
+    content: ' \02C6';
+    margin-left: 15px;
+    color: #C8C8C8;
+}
+.brand p:after{
+    content: ' \02C6';
+    margin-left: 100px;
+    color: #C8C8C8;
+}
+.material p:after{
+    content: ' \02C7';
+    margin-left: 120px;
+    color: #C8C8C8;
+}
+.race p:after{
+    content: ' \02C7';
+    margin-left: 145px;
+    color: #C8C8C8;
+}
+.food-class p:after{
+    content: ' \02C7';
+    margin-left: 58px;
+    color: #C8C8C8;
+}
+.taste p:after{
+    content: ' \02C7';
+    margin-left: 140px;
+    color: #C8C8C8;
+}
+.size p:after{
+    content: ' \02C7';
+    margin-left: 140px;
+    color: #C8C8C8;
+}
+.form p:after{
+    content: ' \02C7';
+    margin-left: 127px;
+    color: #C8C8C8;
+}
+.weight p:after{
+    content: ' \02C7';
+    margin-left: 140px;
+    color: #C8C8C8;
+}
+.family p:after{
+    content: ' \02C7';
+    margin-left: 130px;
+    color: #C8C8C8;
+}
+.mood p:after{
+    content: ' \02C7';
+    margin-left: 110px;
+    color: #C8C8C8;
+}
+.water-temp p:after{
+    content: ' \02C7';
+    margin-left: 19px;
+    color: #C8C8C8;
+}
+
 .age-box {
     display: block;
     position: relative;
@@ -558,7 +635,11 @@ a {
 .price{
 	font-size: 1.1rem;
 	font-family: 'FiraGo';
-	letter-spacing: 0.5px;
+    text-align: center;
+}
+.price-out {
+    font-size: 14px;
+	font-family: 'FiraGo';
 }
 .price button {
     background-color: #F5621F;
@@ -580,6 +661,15 @@ a {
     width: 100%;
     display: flex;
     justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    box-sizing: border-box;
+    font-family: 'Myriad';
+}
+.price-cart-out {
+    width: 100%;
+    display: flex;
+    justify-content: center;
     align-items: center;
     padding: 10px 20px;
     box-sizing: border-box;
