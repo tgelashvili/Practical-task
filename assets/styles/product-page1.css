@@ -413,7 +413,7 @@ img.hover-shadow {
     font-size: 12px;
     padding-left: 40px;
     margin-top: 30px;
-    height: 111px;
+    /* height: 111px; */
     overflow: hidden;
     line-height: 19px;
 }
@@ -426,7 +426,10 @@ img.hover-shadow {
     width: 100%;
     border: none;
     margin-top: 25px;
+    cursor: pointer;
 }
+#more {display: none;}
+
 .see-more:after{
     display: block;
     content: '\005E';
@@ -701,7 +704,6 @@ footer {
     font-family: 'FiraGO';
     color: #9C9C9C;
     font-size: 14px;
-    left: 90px;
 }
 .part2 {
     display: flex;
