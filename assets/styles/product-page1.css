@@ -443,9 +443,8 @@ img.hover-shadow {
     height: 256px;
     box-shadow: 0px 8px 16px 0px rgb(0 0 0 / 10%);
     padding-top: 30px;
-    /* padding-left: 30px; */
 }
-.add-part span {
+.price-part span {
     padding-left: 15px;
 }
 .add-price {
