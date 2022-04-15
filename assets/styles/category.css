@@ -125,7 +125,7 @@ header {
 }
 .icon-bar a:hover {
     background-color: #7ac57367;
-    border-radius: 25px;
+    border-radius: 9px;
 }
 .lang-bar {
     display: none;
