@@ -26,19 +26,6 @@
     .mob-rem {
         display: none !important;
     }
-    .background {
-        display: none;
-    }
-    .about-us h2 {
-        font-size: 18px;
-        padding: 0 30px 0 30px;
-        font-weight: 100;
-    }
-    .about-us p {
-        font-size: 14px;
-        padding: 0 30px 0 30px;
-        font-family: 'FiraL';
-    }
     .part1, .part2, .part3, .data-box{
         display: none;
     }
@@ -54,6 +41,9 @@
         display: block;
         max-width: 570px;
         width: 100%;
+    }
+    .background {
+        display: none;
     }
     .logos a{
         padding: 20px
@@ -71,13 +61,62 @@
         color: black;
         text-align: center;
         margin-top: 85px;
-        margin-bottom: 40px;
+        margin-bottom: 140px;
     }
     .smart span {
         color: #74B42C;
         padding-top: 8px;
     }
+    .sorter {
+        flex-wrap: wrap-reverse;
+        width: 256px;
+    }
+    .mob-filter {
+        display: block;
+        width: 256px;
+        height: 55px;
+        border-radius: 10px;
+        box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.1);
+    }
+    .filter-box {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        height: 55px;
+    }
+    .filter-box span {
+        font-family: 'Myraid';
+        font-size: 14px;
+    }
+    .contact-header {
+        width: 356px;
+        height: 55px;
+    }
+    .filter-sec {
+        display: none;
+    }
+    .block-5 {
+        max-width: 280px;
+        width: 100%;
+    }
+    .product-sec {
+        margin: 0 auto;
+    }
+    .pagination {
+        display: none;
+    }
+    .pill-nav {
+        position: fixed;
+        bottom: 0;
+        flex-shrink: 0;
+    }
+    .mob-pagination, .mobpag {
+        display: block;
+    }
 }
+
+
+
 
 
 

@@ -762,6 +762,32 @@ a {
     color: #74B42C;
 }
 
+/* mobile pagination */
+.mob-pagination {
+    display: none;
+    font-family: 'FiraGO';
+    color: #C8C8C8;
+    font-size: 14px;
+}
+.mobpag {
+    display: none;
+    margin-left: -110px;
+    padding-bottom: 10px;
+}
+.mob-pag1:after{
+    content:' \2190';
+    color: #74B42C;
+}
+.mob-pagination a {
+    color: #C8C8C8;
+    text-decoration: none;
+}
+.mob-pagination span {
+    color: black;
+}
+
+
+
 
 
 
@@ -1087,4 +1113,118 @@ footer {
 .tbc{
     width: 25px; 
     height: 25px;
+}
+
+
+
+/* mobile divs */
+
+.lang-bar {
+    display: none;
+}
+.mob-footer {
+    display: none;
+}
+.pill-nav {
+    display: flex;
+    flex-direction: row;
+    max-width: 570px;
+    width: 100%;
+}
+.pill-nav a {
+    display: flex;
+    flex-direction: column;
+    color: black;
+    text-align: center;
+    padding: 10px;
+    text-decoration: none;
+    font-family: 'Myraid';
+    font-size: 10px;
+    border-radius: 5px;
+}
+.pill-nav a:hover {
+    background-color: rgba(215, 224, 181, 0.418);
+    color: #74B42C;
+}
+.pill-nav a.active {
+    color: #74B42C;
+}
+/* .line {
+    background-color: #74B42C;
+    border-radius: 20px 20px;
+    height: 40px;
+    width: 40px;
+    text-align: center;
+    padding-top: 8px;
+    cursor: pointer;
+} */
+.bar4, .bar5, .bar6 {
+    width: 20px;
+    height: 2px;
+    background-color: white;
+    margin: 0px 10px 5px 10px;
+    transition: 0.4s;
+}
+.change .bar4 {
+    -webkit-transform: rotate(-45deg) translate(-8px, 8px);
+    transform: rotate(-45deg) translate(-5px, 4px);
+}
+.change .bar5 {opacity: 0;}
+
+.change .bar6 {
+    -webkit-transform: rotate(45deg) translate(-8px, -8px);
+    transform: rotate(45deg) translate(-5px, -5px);
+}
+
+/* Dropup Button */
+.dropbtn-footer {
+    background-color: #74B42C;
+    border-radius: 20px 20px;
+    height: 40px;
+    width: 40px;
+    text-align: center;
+    padding-top: 8px;
+    cursor: pointer;
+    color: #74B42C;
+    border: none;
+  }
+  
+  /* The container <div> - needed to position the dropup content */
+  .dropup {
+    position: relative;
+    display: inline-block;
+  }
+  
+  /* Dropup content (Hidden by Default) */
+.dropup-content {
+    display: none;
+    position: absolute;
+    bottom: 50px;
+    left: -30%;
+    background-color: rgba(96, 235, 16, 0.885);
+    min-width: 60px;
+    z-index: 1;
+    border-radius: 6px;
+}
+  
+  /* Links inside the dropup */
+.dropup-content a {
+    color: black;
+    padding: 6px 10px;
+    text-decoration: none;
+    display: block;
+}
+.dropup-content a:hover {background-color: #ddd}
+  
+  /* Show the dropup menu on hover */
+.dropup:hover .dropup-content {
+    display: block;
+}
+  
+  /* Change the background color of the dropup button when the dropup content is shown */
+.dropup:hover .dropbtn {
+    background-color: rgba(96, 235, 16, 0.801);
+}
+.mob-filter {
+    display: none;
 }
