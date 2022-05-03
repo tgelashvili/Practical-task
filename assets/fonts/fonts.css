@@ -1,5 +1,23 @@
 @font-face {
     font-family: 'Myriad';
+    src: url(./Myriad.TTF);
+}
+
+@font-face {
+    font-family: 'FiraGo';
+    src: url(./FiraGO-M.otf);
+}
+
+
+@font-face {
+    font-family: 'FiraL';
+    src: url(./FiraGO.TTF);
+}
+
+
+
+/* @font-face {
+    font-family: 'Myriad';
     src: url(./assets/fonts/Myriad.TTF);
 }
 
@@ -12,4 +30,4 @@
 @font-face {
     font-family: 'FiraL';
     src: url(./assets/fonts/FiraGO.TTF);
-}
+} */
