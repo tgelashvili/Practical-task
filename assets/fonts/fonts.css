@@ -1,15 +1,15 @@
 @font-face {
     font-family: 'Myriad';
-    src: url(/assets/fonts/Myriad.TTF);
+    src: url(./assets/fonts/Myriad.TTF);
 }
 
 @font-face {
     font-family: 'FiraGo';
-    src: url(/assets/fonts/FiraGO-M.otf);
+    src: url(./assets/fonts/FiraGO-M.otf);
 }
 
 
 @font-face {
     font-family: 'FiraL';
-    src: url(/assets/fonts/FiraGO.TTF);
+    src: url(./assets/fonts/FiraGO.TTF);
 }
