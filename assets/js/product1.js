@@ -40,14 +40,22 @@ function showSlides(n) {
 }
 
 
+// adding items plus/minus buttom
 var clicks = 0;
-function onClick(){
+function addMore(){
     clicks +=1;
     document.getElementById("clicks").innerHTML = clicks
 }
+var clicks = 0;
+function removeMore () {
+  clicks -=1;
+  document.getElementById("clicks").innerHTML = clicks
+}
+console.log(addMore());
+console.log(removeMore());
 
 
-
+// See more text function
 function myFunction() {
   var dots = document.getElementById("dots");
   var moreText = document.getElementById("more");
@@ -63,3 +71,29 @@ function myFunction() {
     moreText.style.display = "inline";
   }
 }
+
+console.log(myFunction());
+
+
+
+
+  // product page sorter
+  // function myFunction(this) {
+  //   document.getElementById("myDropdown").classList.toggle("show");
+  // }
+    
+  // function filterFunction() {
+  //   var input, filter, ul, li, a, i;
+  //   input = document.getElementById("myInput");
+  //   filter = input.value.toUpperCase();
+  //   div = document.getElementById("myDropdown");
+  //   a = div.getElementsByTagName("a");
+  //   for (i = 0; i < a.length; i++) {
+  //     txtValue = a[i].textContent || a[i].innerText;
+  //     if (txtValue.toUpperCase().indexOf(filter) > -1) {
+  //       a[i].style.display = "";
+  //     } else {
+  //       a[i].style.display = "none";
+  //     }
+  //   }
+  // }

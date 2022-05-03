@@ -1,0 +1,185 @@
+@media (max-width: 576px) {
+    .container {
+        max-width: 540px;
+        width: 100%;
+    }
+    .block {
+        height: 70px;
+        margin-bottom: 30px;
+        box-shadow: 0px 8px 12px 0px rgba(0,0,0,0.2);
+    }
+    .line-menu, .icon-bar {
+        display: none;
+    }
+    .lang-bar {
+        display: flex;
+        flex-direction: row;
+    }
+    .lang-bar p {
+        padding: 10px;
+        cursor: pointer;
+        font-family: 'FiraGO';
+        font-size: 14px;
+    }
+    .lang-bar :hover{
+        color: thistle;
+    }
+    .contact-header {
+        display: none;
+    }
+    .row {
+        flex-direction: row;
+        flex-wrap: wrap-reverse;
+        margin-top: 20px;
+        max-width: 320px;
+    }
+    .product-lightbox{
+        display: none;
+    }
+    .mobile-product-lightbox, .mob-container {
+        display: block;
+        max-width: 500px;
+        width: 100%;
+    }
+    .table-header, .dog-table {
+        display: none;
+    }
+    .prod-name, .about-product {
+        margin-bottom: 20px;
+    }
+    /* .price-part {
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-start;
+        align-content: center;
+        align-items: center;
+    } */
+
+
+
+
+    .mob-rem {
+        display: none !important;
+    }
+    .part1, .part2, .part3, .data-box{
+        display: none;
+    }
+    footer {
+        max-width: 540px;
+        width: 100%;  
+        padding-top: 51px;
+    }
+    .part1, .part2, .part3{
+        display: none;
+    }
+    .mob-footer {
+        display: block;
+        max-width: 570px;
+        width: 100%;
+    }
+    .background {
+        display: none;
+    }
+    .logos a{
+        padding: 20px
+    }
+    .logos {
+        position: relative;
+        width: 100%;
+        height: auto;
+        text-align: center;
+        padding-top: 20px;
+    }
+    .smart {
+        font-family: 'FiraGO';
+        font-size: 14px;
+        color: black;
+        text-align: center;
+        margin-top: 85px;
+        margin-bottom: 140px;
+    }
+    .smart span {
+        color: #74B42C;
+        padding-top: 8px;
+    }
+    .sorter {
+        flex-wrap: wrap-reverse;
+        width: 256px;
+    }
+    .mob-filter {
+        display: block;
+        width: 256px;
+        height: 55px;
+        border-radius: 10px;
+        box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.1);
+    }
+    .filter-box {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        height: 55px;
+    }
+    .filter-box span {
+        font-family: 'Myraid';
+        font-size: 14px;
+    }
+    .contact-header {
+        width: 356px;
+        height: 55px;
+    }
+    .filter-sec {
+        display: none;
+    }
+    .block-5 {
+        max-width: 280px;
+        width: 100%;
+    }
+    .product-sec {
+        margin: 0 auto;
+    }
+    .pagination {
+        display: none;
+    }
+    .pill-nav {
+        bottom: 0;
+        flex-shrink: 0;
+    }
+    .mob-pagination, .mobpag, .mobile-product-lightbox {
+        display: block;
+    }
+    .price-part {
+        max-width: 320px;
+        width: 100%;
+    }
+    .main-product {
+        max-width: 378px;
+        width: 100%;
+    }
+}
+
+
+
+
+
+
+/* 720 */
+@media (max-width: 768px) {
+    .container {
+        max-width: 720px;
+        width: 100%;
+    }
+
+
+
+}
+
+
+@media (max-width: 992px) {
+    .container {
+        max-width: 960px;
+        width: 100%;
+    }
+
+
+
+}

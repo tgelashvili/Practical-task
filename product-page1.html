@@ -7,11 +7,12 @@
     <title>Product1 - Zootopia</title>
     <link rel="stylesheet" href="assets/fonts/fonts.css">
     <link rel="stylesheet" href="assets/styles/product-page1.css">
-    <link rel="stylesheet" href="assets/media/aboutus-media.css">
+    <link rel="stylesheet" href="assets/media/product-page1-media.css">
     <link rel="icon" href="assets/images/z icon.jpeg">
     <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css"/>
 </head>
 <body>
+<!-- headrer starts here -->
     <header>
         <section class="container">
             <div class="block">
@@ -43,6 +44,8 @@
             </div>
         </section>
     </header>
+
+<!-- navigation line starts here -->
     <section class="container">
         <nav class="contact-header">
             <ul>
@@ -71,6 +74,8 @@
             </ul>
         </nav>
     </section>
+
+<!-- main section starts here -->
     <section class="container">
         <div class="product-lightbox">
             <!-- Images used to open the lightbox -->
@@ -164,9 +169,9 @@
                     <span class="add-dics">158.50 ₾</span>
                 </div>
                 <div class="add-more">
-                    <img src="assets/images/math-minus.svg"  alt="plus">
-                    <span id="clicks">5</span>
-                    <img src="assets/images/math-plus.svg" onclick="onClick()" alt="minus">
+                    <img src="assets/images/math-minus.svg" onclick="removeMore()" alt="plus">
+                    <span id="clicks">0</span>
+                    <img src="assets/images/math-plus.svg" onclick="addMore()" alt="minus">
                 </div>
                 <div class="add-cart">
                     <span>კალათაში დამატება</span>
@@ -177,7 +182,112 @@
                 </div>
             </div>
         </div>
+        <div class="mobile-product-lightbox">
+            <div class="about-product">
+                <p class="prod-name">ედვანსი მოზარდი ძაღლი Maxi Junior <span>14 კგ</span></p>
+                <span class="prod-code">#12312412</span>
+                <a href="http://www.facebook.com" target="_blank"> <img src="assets/images/facebook.svg" alt="fb"> </a>
+                <span class="fb-share">გააზიარე</span>
+
+                <div class="price-part">
+                    <span class="add-price">135.30 ₾</span>
+                    <span class="add-dics">158.50 ₾</span>
+                </div>
+            </div>
+
+            <div class="main-product">
+                <img src="./assets/images/pedegree1.jpg" onclick="openModal();currentSlide(1)" class="hover-shadow" alt="sliderbig">
+            </div>
+
+            <!-- Images used to open the lightbox -->
+            <div class="row">
+                <div class="column">
+                <img src="./assets/images/pedegree1.jpg" onclick="openModal();currentSlide(1)" class="hover-shadow">
+                </div>
+                <div class="column">
+                <img src="./assets/images/pedigree.jpg" onclick="openModal();currentSlide(2)" class="hover-shadow">
+                </div>
+                <div class="column">
+                <img src="./assets/images/pedigree.jpg" onclick="openModal();currentSlide(3)" class="hover-shadow">
+                </div>
+                <div class="column">
+                <img src="./assets/images/pedigree.jpg" onclick="openModal();currentSlide(4)" class="hover-shadow">
+                </div>
+            </div>
+
+            <!-- The Modal/Lightbox -->
+            <div id="myModal" class="modal">
+                <span class="close cursor" onclick="closeModal()">&times;</span>
+                <div class="modal-content">
+            
+                <div class="mySlides">
+                    <div class="numbertext">1 / 4</div>
+                    <img src="./assets/images/pedigree.jpg" style="width:100%">
+                </div>
+            
+                <div class="mySlides">
+                    <div class="numbertext">2 / 4</div>
+                    <img src="./assets/images/pedigree.jpg" style="width:100%">
+                </div>
+            
+                <div class="mySlides">
+                    <div class="numbertext">3 / 4</div>
+                    <img src="./assets/images/pedigree.jpg" style="width:100%">
+                </div>
+            
+                <div class="mySlides">
+                    <div class="numbertext">4 / 4</div>
+                    <img src="./assets/images/pedigree.jpg" style="width:100%">
+                </div>
+            
+                <!-- Next/previous controls -->
+                <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+                <a class="next" onclick="plusSlides(1)">&#10095;</a>
+            
+                <!-- Caption text -->
+                <div class="caption-container">
+                    <p id="caption"></p>
+                </div>
+            
+                <!-- Thumbnail image controls -->
+                <div class="column">
+                    <img class="demo" src="./assets/images/pedigree.jpg" onclick="currentSlide(1)" alt="Age 0-1">
+                </div>
+            
+                <div class="column">
+                    <img class="demo" src="./assets/images/pedigree.jpg" onclick="currentSlide(2)" alt="Age 1-3">
+                </div>
+            
+                <div class="column">
+                    <img class="demo" src="./assets/images/pedigree.jpg" onclick="currentSlide(3)" alt="Age 2-3">
+                </div>
+            
+                <div class="column">
+                    <img class="demo" src="./assets/images/pedigree.jpg" onclick="currentSlide(4)" alt="Age 3-old">
+                </div>
+            </div>
+            </div>
+            <div class="weight-but">
+                <button>600გრ.</button>
+                <button>5 კგ.</button>  
+                <button>13 კგ.</button>
+                <button>2 კგ.</button>
+            </div>
+            <div class="add-more">
+                <img src="assets/images/math-minus.svg" onclick="removeMore()" alt="plus">
+                <span id="clicks">0</span>
+                <img src="assets/images/math-plus.svg" onclick="addMore()" alt="minus">
+            </div>
+            <div class="add-cart">
+                <span>კალათაში დამატება</span>
+            <a class="cart-box"  href="#"><img src="assets/images/shopping-cart1.svg" alt="cart"></a>
+            </div>
+            <p class="prod-text">საბეჭდი და ტიპოგრაფიული ინდუსტრიის უშინაარსო ტექსტია. იგი სტანდარტად 1500-იანი წლებიდან იქცა, როდესაც უცნობმა მბეჭდავმა ამწყობ დაზგაზე წიგნის საცდელი ეგზემპლარი დაბეჭდა. მისი ტექსტი არამარტო 5 საუკუნის მანძილზე შემორჩა, არამედ მან დღემდე, ელექტრონული ტიპოგრაფიის დრომდეც უცვლელად <span id="dots">...</span><span id="more"> მოაღწია. განსაკუთრებული პოპულარობა მას 1960-იან წლებში გამოსულმა Letraset-ის ცნობილმა ტრაფარეტებმა მოუტანა, უფრო მოგვიანებით კი — Aldus PageMaker-ის ტიპის საგამომცემლო პროგრამებმა, რომლებშიც Lorem Ipsum-ის სხვადასხვა ვერსიები იყო ჩაშენებული. ცნობილი ფაქტია, რომ გვერდის წაკითხვად შიგთავსს შეუძლია მკითხველის ყურადღება მიიზიდოს და დიზაინის აღქმაში ხელი შეუშალოს. Lorem Ipsum-ის გამოყენებით ვღებულობთ იმაზე მეტ-ნაკლებად სწორი გადანაწილების ტექსტს, ვიდრე ერთიდაიგივე გამეორებადი სიტყვებია ხოლმე. შედეგად, ტექსტი ჩვეულებრივ ინგლისურს გავს, მისი წაითხვა კი შეუძლებელია. დღეს უამრავი პერსონალური საგამომცემლო პროგრამა და ვებგვერდი იყენებს Lorem Ipsum-ს, როგორც დროებით ტექსტს წყობის შესავსებად; Lorem Ipsum-ის მოძებნისას კი საძიებო სისტემები ბევრ დაუსრულებელ გვერდს გვიჩვენებენ. წლების მანძილზე ამ ტექსტის უამრავი ვერსია გამოჩნდა, ზოგი შემთხვევით დაშვებული შეცდომის გამო, ზოგი კი — განზრახ, ხუმრობით.</span></p>
+            <button onclick="myFunction()" id="myBtn" class="see-more">მეტის ნახვა</button>
+        </div>
     </section>
+
+<!-- Information above footer starts here -->
     <section class="container">
         <h1 class="table-header">დამატებითი ინფორმაცია</h1>
         <div class="dog-table">
@@ -202,6 +312,7 @@
         </div>
     </section>
 
+<!-- Information above footer part 2 starts here -->
     <section class="container">
         <div class="data-box">
             <div class="background1">
@@ -261,6 +372,8 @@
             </div>
         </div>
     </section>
+
+<!-- Footer starts here -->
     <footer>
         <div class="part1">
             <img src="assets/images/Intersection 16.png" alt="background">
@@ -292,7 +405,7 @@
                 <a class="active" href="index.html"><img src="assets/images/home-alt.svg" alt="home"> მთავარი</a>
                 <a href="#"><img src="assets/images/search.svg" alt="search"> ძებნა</a>
                 <div class="dropup line" onclick="myFunction(this)">
-                    <button class="dropbtn">
+                    <button class="dropbtn-footer">
                         <div class="bar4"></div>
                         <div class="bar5"></div>
                         <div class="bar6"></div>
