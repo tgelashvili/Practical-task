@@ -143,6 +143,8 @@
     .pill-nav {
         bottom: 0;
         flex-shrink: 0;
+        max-width: 460px;
+        width: 100%;
     }
     .mob-pagination, .mobpag, .mobile-product-lightbox {
         display: block;

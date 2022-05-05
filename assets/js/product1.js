@@ -39,20 +39,31 @@ function showSlides(n) {
     captionText.innerHTML = dots[slideIndex-1].alt;
 }
 
-
 // adding items plus/minus buttom
 var clicks = 0;
 function addMore(){
-    clicks +=1;
-    document.getElementById("clicks").innerHTML = clicks
-}
+    clicks += 1;
+    document.getElementById("clicks").innerHTML = clicks;
+};
 var clicks = 0;
-function removeMore () {
+function removeMore() {
   clicks -=1;
-  document.getElementById("clicks").innerHTML = clicks
+  document.getElementById("clicks").innerHTML = clicks;
+};
+
+
+// adding items plus/minus buttom for mobile
+var addItem = 0;
+function plus (){
+    addItem +=1;
+    document.getElementById("addClick").innerHTML = addItem;
 }
-console.log(addMore());
-console.log(removeMore());
+var addItem = 0;
+function minus () {
+  addItem -=1;
+  document.getElementById("addClick").innerHTML = addItem;
+}
+
 
 
 // See more text function
@@ -72,8 +83,22 @@ function myFunction() {
   }
 }
 
-console.log(myFunction());
+// See more text function for mobile
+function seeMoreText() {
+  var dots = document.getElementById("dotButton");
+  var moreText = document.getElementById("showMore");
+  var btnText = document.getElementById("pressButton");
 
+  if (dots.style.display === "none") {
+    dots.style.display = "inline";
+    btnText.innerHTML = "მეტის ნახვა";
+    moreText.style.display = "none";
+  } else {
+    dots.style.display = "none";
+    btnText.innerHTML = "აკეცვა";
+    moreText.style.display = "inline";
+  }
+}
 
 
 
