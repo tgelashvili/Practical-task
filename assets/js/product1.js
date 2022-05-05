@@ -39,6 +39,43 @@ function showSlides(n) {
     captionText.innerHTML = dots[slideIndex-1].alt;
 }
 
+
+// Open slide mobile
+function viewSlide() {
+  document.getElementById("popSlide").style.display = "block";
+}
+
+// Close slide
+function closeSlide() {
+  document.getElementById("popSlide").style.display = "none";
+}
+
+var imageIndex = 1;
+showImages(imageIndex);
+
+  // Thumbnail image controls
+  function currentSlide(n) {
+    showImages(imageIndex = n);
+}
+
+
+function showImages(n) {
+  var i;
+  var images = document.getElementsByClassName("myImages");
+  var blocks = document.getElementsByClassName("icon-demo");
+  if (n > images.length) {imageIndex = 1}
+  if (n < 1) {imageIndex = images.length}
+  for (i = 0; i < images.length; i++) {
+    images[i].style.display = "none";
+  }
+  for (i = 0; i < blocks.length; i++) {
+    blocks[i].className = blocks[i].className.replace(" active", "");
+  }
+  images[imageIndex-1].style.display = "block";
+  blocks[imageIndex-1].className += " active";
+}
+
+
 // adding items plus/minus buttom
 var clicks = 0;
 function addMore(){

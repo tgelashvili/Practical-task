@@ -196,46 +196,46 @@
             </div>
 
             <div class="main-product">
-                <img src="./assets/images/pedegree1.jpg" onclick="openModal();currentSlide(1)" class="hover-shadow" alt="sliderbig">
+                <img src="./assets/images/pedegree1.jpg" onclick="viewSlide();currentSlide(1)" class="hover-shadow" alt="sliderbig">
             </div>
 
             <!-- Images used to open the lightbox -->
             <div class="row">
                 <div class="column">
-                <img src="./assets/images/pedegree1.jpg" onclick="openModal();currentSlide(1)" class="hover-shadow">
+                <img src="./assets/images/pedegree1.jpg" onclick="viewSlide();currentSlide(1)" class="hover-shadow">
                 </div>
                 <div class="column">
-                <img src="./assets/images/pedigree.jpg" onclick="openModal();currentSlide(2)" class="hover-shadow">
+                <img src="./assets/images/pedigree.jpg" onclick="viewSlide();currentSlide(2)" class="hover-shadow">
                 </div>
                 <div class="column">
-                <img src="./assets/images/pedigree.jpg" onclick="openModal();currentSlide(3)" class="hover-shadow">
+                <img src="./assets/images/pedigree.jpg" onclick="viewSlide();currentSlide(3)" class="hover-shadow">
                 </div>
                 <div class="column">
-                <img src="./assets/images/pedigree.jpg" onclick="openModal();currentSlide(4)" class="hover-shadow">
+                <img src="./assets/images/pedigree.jpg" onclick="viewSlide();currentSlide(4)" class="hover-shadow">
                 </div>
             </div>
 
             <!-- The Modal/Lightbox -->
-            <div id="myModal" class="modal">
-                <span class="close cursor" onclick="closeModal()">&times;</span>
+            <div id="popSlide" class="modal">
+                <span class="close cursor" onclick="closeSlide()">&times;</span>
                 <div class="modal-content">
             
-                <div class="mySlides">
+                <div class="myImages">
                     <div class="numbertext">1 / 4</div>
                     <img src="./assets/images/pedigree.jpg" style="width:100%">
                 </div>
             
-                <div class="mySlides">
+                <div class="myImages">
                     <div class="numbertext">2 / 4</div>
                     <img src="./assets/images/pedigree.jpg" style="width:100%">
                 </div>
             
-                <div class="mySlides">
+                <div class="myImages">
                     <div class="numbertext">3 / 4</div>
                     <img src="./assets/images/pedigree.jpg" style="width:100%">
                 </div>
             
-                <div class="mySlides">
+                <div class="myImages">
                     <div class="numbertext">4 / 4</div>
                     <img src="./assets/images/pedigree.jpg" style="width:100%">
                 </div>
@@ -244,26 +244,21 @@
                 <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
                 <a class="next" onclick="plusSlides(1)">&#10095;</a>
             
-                <!-- Caption text -->
-                <div class="caption-container">
-                    <p id="caption"></p>
-                </div>
-            
                 <!-- Thumbnail image controls -->
                 <div class="column">
-                    <img class="demo" src="./assets/images/pedigree.jpg" onclick="currentSlide(1)" alt="Age 0-1">
+                    <img class="icon-demo" src="./assets/images/pedigree.jpg" onclick="currentSlide(1)" alt="Age 0-1">
                 </div>
             
                 <div class="column">
-                    <img class="demo" src="./assets/images/pedigree.jpg" onclick="currentSlide(2)" alt="Age 1-3">
+                    <img class="icon-demo" src="./assets/images/pedigree.jpg" onclick="currentSlide(2)" alt="Age 1-3">
                 </div>
             
                 <div class="column">
-                    <img class="demo" src="./assets/images/pedigree.jpg" onclick="currentSlide(3)" alt="Age 2-3">
+                    <img class="icon-demo" src="./assets/images/pedigree.jpg" onclick="currentSlide(3)" alt="Age 2-3">
                 </div>
             
                 <div class="column">
-                    <img class="demo" src="./assets/images/pedigree.jpg" onclick="currentSlide(4)" alt="Age 3-old">
+                    <img class="icon-demo" src="./assets/images/pedigree.jpg" onclick="currentSlide(4)" alt="Age 3-old">
                 </div>
             </div>
             </div>
