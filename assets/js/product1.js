@@ -101,8 +101,6 @@ function minus () {
   document.getElementById("addClick").innerHTML = addItem;
 }
 
-
-
 // See more text function
 function myFunction() {
   var dots = document.getElementById("dots");
