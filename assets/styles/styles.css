@@ -7,6 +7,10 @@
     max-width: 1187px;
     width: 100%;
 }
+img {
+    max-width: 100%;
+    height: auto;
+}
 /* navigation block */
 .block {
     display: flex;
