@@ -402,7 +402,7 @@ img {
 .item3 {
     position: relative;
     background-color: #75b528;
-    background-image: url(../images/bird.png);
+    background-image: url(../images/bird.WEBP);
     background-position: 98% 85%;
     background-repeat: no-repeat;
     grid-area: item3;
