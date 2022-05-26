@@ -48,7 +48,6 @@ header {
     cursor: pointer;
     position: relative;
 }
-/* Dropdown Content (Hidden by Default) */
 .dropdown-content {
     display: none;
     position: absolute;
@@ -59,8 +58,6 @@ header {
     text-align: center;
     border-radius: 10px;
 }
-  
-  /* Links inside the dropdown */
 .dropdown-content a {
     color: black;
     padding: 5px 5px;
@@ -110,7 +107,6 @@ header {
     -webkit-transform: rotate(45deg) translate(-8px, -8px);
     transform: rotate(45deg) translate(-8px, -8px);
 }
-
 /* search left pannel */
 .icon-bar a {
     display: inline-block;
@@ -130,7 +126,6 @@ header {
 .lang-bar {
     display: none;
 }
-
 /* section start */
 .contact-header{
     color: #111111;
@@ -159,7 +154,6 @@ header {
     color: black;
     display: inline-block;
 }
-
 /* second section */ 
 .background1 {
     position: relative;
@@ -193,7 +187,6 @@ header {
     line-height: 1.6;
     height: 92px;
 }
-
 /* filter - sorter */
 .sorter {
     display: flex;
@@ -264,9 +257,7 @@ header {
 }
 .dropdown a:hover {background-color: #ddd;}
 .show {display: block;}
-
 /* price filter  */
-
 .filter-sec, .product-sec {
     display: inline-block;
     margin-left: 5px;
@@ -383,7 +374,6 @@ hr {
     margin-bottom: 20px;
     padding: 0 30px;
 }
-
 /* age section in filter */
 .animal-age, .animal-species, .brand{
     padding-top: 10px;
@@ -513,7 +503,6 @@ hr {
     width: 5px;
     height: 10px;
 }
-
 /* material to bottom filter section */
 .material p, .race p, .food-class p, .taste p, .size p, .form p, .weight p, .family p, .mood p, .water-temp p {
     font-family: 'Myraid';
@@ -531,13 +520,10 @@ hr {
     border: none;
     margin: 61px 0 0 35px;
 }
-
-
 /* block 5 product list  product sec */
 .block-5 {
     max-width: 900px;
     width: 100%;
-    /* margin-top: 70px; */
 }
 .block-5 h2 {
     font-family: 'Myriad';
@@ -724,9 +710,7 @@ a {
     margin: 7px;
     border-radius: 4px;
 }
-
-
-/* /* Pagination links */
+/* Pagination links */
 .demo {
     display: inline-block;
     left: 50%;
@@ -761,7 +745,6 @@ a {
 .pag-nav2:hover {
     color: #74B42C;
 }
-
 /* mobile pagination */
 .mob-pagination {
     display: none;
@@ -785,8 +768,6 @@ a {
 .mob-pagination span {
     color: black;
 }
-
-
 /* Footer */
 .data-box {
     margin-top: 130px;
@@ -908,8 +889,6 @@ a {
     font-weight:600;
   }
 }
-
-
 /* footer section */
 footer {
     max-width: 1400px;
@@ -981,16 +960,12 @@ footer {
     text-align: center;
     margin: 64px 30px 0 0;
 }
-
 .tbc{
     width: 25px; 
     height: 25px;
 }
 
-
-
 /* mobile divs */
-
 .lang-bar {
     display: none;
 }
@@ -1021,15 +996,6 @@ footer {
 .pill-nav a.active {
     color: #74B42C;
 }
-/* .line {
-    background-color: #74B42C;
-    border-radius: 20px 20px;
-    height: 40px;
-    width: 40px;
-    text-align: center;
-    padding-top: 8px;
-    cursor: pointer;
-} */
 .bar4, .bar5, .bar6 {
     width: 20px;
     height: 2px;
@@ -1047,7 +1013,6 @@ footer {
     -webkit-transform: rotate(45deg) translate(-8px, -8px);
     transform: rotate(45deg) translate(-5px, -5px);
 }
-
 /* Dropup Button */
 .dropbtn-footer {
     background-color: #74B42C;
@@ -1060,14 +1025,10 @@ footer {
     color: #74B42C;
     border: none;
   }
-
-  /* The container <div> - needed to position the dropup content */
-  .dropup {
+.dropup {
     position: relative;
     display: inline-block;
-  }
-  
-  /* Dropup content (Hidden by Default) */
+}
 .dropup-content {
     display: none;
     position: absolute;
@@ -1078,8 +1039,6 @@ footer {
     z-index: 1;
     border-radius: 6px;
 }
-  
-  /* Links inside the dropup */
 .dropup-content a {
     color: black;
     padding: 6px 10px;
@@ -1087,13 +1046,9 @@ footer {
     display: block;
 }
 .dropup-content a:hover {background-color: #ddd}
-  
-  /* Show the dropup menu on hover */
 .dropup:hover .dropup-content {
     display: block;
 }
-  
-  /* Change the background color of the dropup button when the dropup content is shown */
 .dropup:hover .dropbtn {
     background-color: rgba(96, 235, 16, 0.801);
 }

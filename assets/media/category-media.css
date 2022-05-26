@@ -114,30 +114,16 @@
         display: block;
     }
 }
-
-
-
-
-
-
 /* 720 */
 @media (max-width: 768px) {
     .container {
         max-width: 720px;
         width: 100%;
     }
-
-
-
 }
-
-
 @media (max-width: 992px) {
     .container {
         max-width: 960px;
         width: 100%;
     }
-
-
-
 }

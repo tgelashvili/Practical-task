@@ -54,7 +54,6 @@
     .address-box, .tel-box, .email-box, .hours-box {
         margin-left: 50px;
     }
-
     .mob-rem {
         display: none !important;
     }
@@ -62,7 +61,6 @@
         max-width: 500px;
         width: 100%;
         height: auto;
-
     }
     .map-side {
         margin: auto;
@@ -84,7 +82,6 @@
     }
     .logos a{
         padding: 20px
-
     }
     .logos {
         position: relative;
@@ -92,7 +89,6 @@
         height: auto;
         text-align: center;
         padding-top: 20px;
-
     }
     .smart {
         font-family: 'FiraGO';
@@ -101,37 +97,21 @@
         text-align: center;
         margin-top: 85px;
         margin-bottom: 40px;
-
     }
     .smart span {
         color: #74B42C;
         padding-top: 8px;
     }
 }
-
-
-
-
-
-
-
 @media (max-width: 768px) {
     .container {
         max-width: 720px;
         width: 100%;
     }
-
-
-
 }
-
-
 @media (max-width: 992px) {
     .container {
         max-width: 960px;
         width: 100%;
     }
-
-
-
 }
