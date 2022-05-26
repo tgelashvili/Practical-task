@@ -1,8 +1,7 @@
 // menu lines
 function myFunction(x) {
     x.classList.toggle("change");
-  }
-
+}
 //   slider - swiper
 const slides = document.querySelectorAll('.slide-item');
 const slideArea = document.querySelector('.slide-area');
@@ -39,7 +38,6 @@ renderSlider();
 nextButton.addEventListener('click', nextSlide);
 prevButton.addEventListener('click', prevSlide);
 
-
 //კლავიატურის ისრებსაც გადავეცი იფივე ფუქცია, რაც აქვს next and prev slide -ის ფუნქციებს
 document.addEventListener('keydown', (e) => {
 // console.log(e.code);
@@ -53,11 +51,11 @@ if(e.code === 'ArrowLeft'){
 // release our intervalID from the variable
 let intervalId = null;
 function startAutoSliding() {
-if(!intervalId){
-    intervalId = setInterval(() => {
-    nextSlide();
-    }, 5000);
-}
+    if(!intervalId){
+        intervalId = setInterval(() => {
+        nextSlide();
+        }, 5000);
+    }
 }
 // startAutoSliding();
 // დავასელექთე ნოუდი, გავასუფთავე შენახული IntervalID
@@ -69,24 +67,9 @@ function stopAutoSliding (){
         intervalId = null;
     }
 }
-// stopAutoSliding();
-// ვისმენთ მაუსის მიტანას რომ გაჩერდეს სლაიდერი
-// mouseMove.addEventListener('mouseenter', stopAutoSliding);
-// თუ მაუსი მიტანილი მაქვს სურათზე და შემდეგ გამოვწევ 
-// სურათიდან, ავტომატური სლაიდი გაგრძელდეს.
 mouseMove.addEventListener('mouseenter', stopAutoSliding);
-// mouseMove.addEventListener('mouseleave', startAutoSliding);
-
-// 3. დავამატოთ ასეთი (ღილაკები.png) ღილაკები იმდენი 
-// რამდენი სურათიც გვაქვს, ღილაკები დავნომროთ 
-// ინდექსებით (data-index ატრიბუტი) ღილაკზე დაკლიების 
-// შემდეგ სლაიდერი უნდა გადავიდეს შესაბამის სლაიდზე 
-// (პირველ ღილაკზე თუ დავკლიკე უნდა გადავიდეს პირველ 
-// სლაიზე და ასე შემდეგ)
-
 let iconNext = document.querySelector('.dots');
 let iconItems = Object.entries(iconNext);
-
 dots.forEach((dot) => {
     dot.addEventListener('click', e => {
         const index = e.target.getAttribute('data-index');

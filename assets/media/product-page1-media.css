@@ -47,17 +47,6 @@
     .prod-name, .about-product {
         margin-bottom: 20px;
     }
-    /* .price-part {
-        display: flex;
-        flex-direction: row;
-        justify-content: flex-start;
-        align-content: center;
-        align-items: center;
-    } */
-
-
-
-
     .mob-rem {
         display: none !important;
     }
@@ -206,30 +195,16 @@
         border-radius: 6px;
     }
 }
-
-
-
-
-
-
 /* 720 */
 @media (max-width: 768px) {
     .container {
         max-width: 720px;
         width: 100%;
     }
-
-
-
 }
-
-
 @media (max-width: 992px) {
     .container {
         max-width: 960px;
         width: 100%;
     }
-
-
-
 }

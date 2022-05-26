@@ -2,25 +2,20 @@
 function openModal() {
     document.getElementById("myModal").style.display = "block";
 }
-  
   // Close the Modal
 function closeModal() {
     document.getElementById("myModal").style.display = "none";
-}
-  
+} 
 var slideIndex = 1;
 showSlides(slideIndex);
-
 // Next/previous controls
 function plusSlides(n) {
     showSlides(slideIndex += n);
 }
-  
   // Thumbnail image controls
 function currentSlide(n) {
     showSlides(slideIndex = n);
-}
-  
+} 
 function showSlides(n) {
     var i;
     var slides = document.getElementsByClassName("mySlides");
@@ -38,27 +33,20 @@ function showSlides(n) {
     dots[slideIndex-1].className += " active";
     captionText.innerHTML = dots[slideIndex-1].alt;
 }
-
-
 // Open slide mobile
 function viewSlide() {
   document.getElementById("popSlide").style.display = "block";
 }
-
 // Close slide
 function closeSlide() {
   document.getElementById("popSlide").style.display = "none";
 }
-
 var imageIndex = 1;
 showImages(imageIndex);
-
-  // Thumbnail image controls
-  function currentSlide(n) {
-    showImages(imageIndex = n);
+// Thumbnail image controls
+function currentSlide(n) {
+  showImages(imageIndex = n);
 }
-
-
 function showImages(n) {
   var i;
   var images = document.getElementsByClassName("myImages");
@@ -74,8 +62,6 @@ function showImages(n) {
   images[imageIndex-1].style.display = "block";
   blocks[imageIndex-1].className += " active";
 }
-
-
 // adding items plus/minus buttom
 var clicks = 0;
 function addMore(){
@@ -87,8 +73,6 @@ function removeMore() {
   clicks -=1;
   document.getElementById("clicks").innerHTML = clicks;
 };
-
-
 // adding items plus/minus buttom for mobile
 var addItem = 0;
 function plus (){
@@ -100,7 +84,6 @@ function minus () {
   addItem -=1;
   document.getElementById("addClick").innerHTML = addItem;
 }
-
 // See more text function
 function myFunction() {
   var dots = document.getElementById("dots");
@@ -117,7 +100,6 @@ function myFunction() {
     moreText.style.display = "inline";
   }
 }
-
 // See more text function for mobile
 function seeMoreText() {
   var dots = document.getElementById("dotButton");
@@ -134,26 +116,3 @@ function seeMoreText() {
     moreText.style.display = "inline";
   }
 }
-
-
-
-  // product page sorter
-  // function myFunction(this) {
-  //   document.getElementById("myDropdown").classList.toggle("show");
-  // }
-    
-  // function filterFunction() {
-  //   var input, filter, ul, li, a, i;
-  //   input = document.getElementById("myInput");
-  //   filter = input.value.toUpperCase();
-  //   div = document.getElementById("myDropdown");
-  //   a = div.getElementsByTagName("a");
-  //   for (i = 0; i < a.length; i++) {
-  //     txtValue = a[i].textContent || a[i].innerText;
-  //     if (txtValue.toUpperCase().indexOf(filter) > -1) {
-  //       a[i].style.display = "";
-  //     } else {
-  //       a[i].style.display = "none";
-  //     }
-  //   }
-  // }

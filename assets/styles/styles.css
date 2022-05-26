@@ -46,11 +46,9 @@
 .dropdown-content a:hover {
     background-color: #ddd;
 }
-  
 .line-menu:hover .dropdown-content {
     display: block;
 }
-
 .bar1, .bar2, .bar3 {
     width: 35px;
     height: 5px;
@@ -93,7 +91,6 @@
 }
 .mobile p{
     padding-right: 10px;
-
 }
 .mobile :hover {
     color: #6E6E6E;
@@ -174,7 +171,6 @@
 }
 .button-purchase span{
     position: absolute;
-    /* margin: 35px 0 0 -50px; */
     left: 43%;
     top: 65%;
     z-index: 99;
@@ -710,7 +706,6 @@ a {
     position: relative;;
     height: 500px;
     width: 378px;
-    /* margin-right: 26px; */
     box-shadow: 2px 2px 30px rgb(0 0 0 / 20%);
     border-radius: 10px;
 }
@@ -892,7 +887,6 @@ a {
     bottom: 1px;
 }
 
-
 /* bottom section, above footer */
 .block-9 {
     display: flex;
@@ -1038,7 +1032,6 @@ a {
     text-align: center;
     font-size: 18px;
     background: #fff;
-    /* Center slide text vertically */
     display: -webkit-box;
     display: -ms-flexbox;
     display: -webkit-flex;
@@ -1059,10 +1052,7 @@ a {
     object-fit: cover;
 }
 
-
-/* footer pannel */
-/* Footer */
-/* second section */
+/* Footer second section */
 .background1 {
     opacity: 0.1;
     display: flex;
@@ -1073,7 +1063,6 @@ a {
 }
 .lb {
     justify-content: flex-start;
-    /* margin-right: -60px; */
 }
 .data-box {
     display: flex;
@@ -1208,7 +1197,6 @@ a {
 }
 
 /* footer section */
-/* Footer */
 .mob-footer {
     display: none;
 }
@@ -1326,7 +1314,6 @@ a {
   }
 }
 
-
 /* footer section */
 footer {
     max-width: 1400px;
@@ -1402,7 +1389,6 @@ footer {
     width: 25px; 
     height: 25px;
 }
-
 
 /* for mobile version */
 .lang-bar {

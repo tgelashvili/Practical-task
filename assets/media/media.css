@@ -44,9 +44,7 @@
         justify-content: center;
     }
     .promotion1, .promotion2, .promotion3, .promotion4 {
-        /* margin-bottom: 10px; */
         margin: 0px 4px 10px 0;
-
     }
     .grid-container{
         display: flex;
@@ -166,7 +164,6 @@
     }
     .sec2 {
         max-width: 540px;
-        /* width: 100%; */
         margin-top: 10px;
         margin-bottom: 10px;
     }
@@ -188,7 +185,6 @@
         display: inline-block;
         font-size: 18px;
         padding-left: 32px;
-
     }
     .block-8 .pagination {
         display: inline-block;
@@ -255,22 +251,12 @@
         padding-top: 8px;
     }
 }
-
-
-
-
-
-
-
-/* These are just in case someone 
-wants to see  */
 @media (max-width: 768px) {
     .container, footer{
         max-width: 768px;
         width: 100%;
     }
 }
-
 @media (max-width: 996px) {
     .container{
         max-width: 990px;
@@ -294,10 +280,6 @@ wants to see  */
         grid-area: item4;
         margin-top: 200px;
     }
-    /* .item4 {
-        max-width: 855px;
-        width: 100%;
-    } */
     .detail-box {
         padding: 0px 5px;
     }
@@ -334,4 +316,3 @@ wants to see  */
         margin-left: 50px;
     }
 }
-
