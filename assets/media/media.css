@@ -145,6 +145,8 @@
     }
     .slide-img img {
         left: 29%;
+        max-width: 100%;
+        height: auto;
     }
     .slide-head {
         display: flex;
