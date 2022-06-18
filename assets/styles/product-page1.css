@@ -196,7 +196,7 @@ header {
     width: 100%;
 }
 .about-us h2 {
-    font-family: 'Myraid';
+    font-family: 'Myriad';
     font-size: 28px;
     margin-bottom: 30px;
     margin-top: 58px;
@@ -346,11 +346,11 @@ img.hover-shadow {
     /* float: left; */
 }
 .prod-name p {
-    font-family: 'Myraid';
+    font-family: 'Myriad';
     font-size: 18px;
 }
 .prod-name span {
-    font-family: 'Myraid';
+    font-family: 'Myriad';
     font-size: 18px;
 }
 .prod-code {
@@ -519,7 +519,7 @@ table {
 }
 .table-header {
     margin-top: 165px;
-    font-family: 'Myraid';
+    font-family: 'Myriad';
     font-size: 28px;
     padding-left: 40px;
     margin-bottom: 41px;
@@ -568,7 +568,7 @@ tr:hover {background-color: #75b42c87;}
     margin-left: 60px;
 }
 .site-footer h6{
-    font-family: 'Myraid';
+    font-family: 'Myriad';
     color: #111111;
     font-size: 14px;
     margin-top: 5px;
@@ -759,7 +759,7 @@ footer {
     text-align: center;
     padding: 10px;
     text-decoration: none;
-    font-family: 'Myraid';
+    font-family: 'Myriad';
     font-size: 10px;
     border-radius: 5px;
 }
