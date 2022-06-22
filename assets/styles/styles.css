@@ -534,7 +534,6 @@ img {
 .pag-last {
     border-radius:0 4px 4px 0;
 }
-
 hr {
     border: none;
 }
@@ -590,7 +589,7 @@ a {
 }
 .type a {
 	color:#222222;
-	margin: 5px 0px;
+	/* margin: 5px 0px; */
 	font-weight: 700;
 	letter-spacing: 0.5px;
 	padding-right: 8px;
@@ -611,7 +610,9 @@ a {
     height: 35px;
     justify-content: center;
     align-items: center;
+    border-radius: 4px;
 }
+
 .type button:hover {
     background-color: #E7E7E7;
     color: #111111;
@@ -628,6 +629,8 @@ a {
 	font-size: 1.1rem;
 	font-family: 'FiraGo';
 	letter-spacing: 0.5px;
+    align-items: center;
+
 }
 .price button {
     background-color: #F5621F;
