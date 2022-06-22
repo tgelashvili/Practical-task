@@ -4,14 +4,11 @@
     box-sizing: border-box;
 }
 .body {
-    /* background-color: #cacccf; */
     background-color: #f0efef77;
-
 }
 .container {
     max-width: 1187px;
     width: 100%;
-    /* background-color: #FAFAFA; */
 }
 img {
     max-width: 100%;
